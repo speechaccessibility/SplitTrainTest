@@ -1,7 +1,14 @@
-# split_train_test
+# Standard Train/Dev/Test Split for the Speech Accessibility Project
 
 This repository provides the train/dev/test split for each release of the Speech Accessibility Corpus, and describes how each such split was generated.
 
-The current draft standard train/test/split for each release is a JSON file in the directory `draft_standard`.
+If you don't know what you want, then you probably want the draft standard train/dev/test split of the most recent release of the corpus:
 
-The alternative splits that were considered are in the directory `draft_results`.   The code that produced these results is in `code`.
+* [current.json](draft_standard/current.json)
+
+Other contents of this repository include:
+
+* draft_standard: train/dev/test splits for each release of the corpus
+* draft_outputs: alternative splits that were generated during the search for the best
+* code: code that was used to generate the train/dev/test split
+
