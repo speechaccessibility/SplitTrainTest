@@ -4,7 +4,7 @@ This repository provides the train/dev/test split for each release of the Speech
 
 If you don't know what you want, then you probably want the draft standard train/dev/test split of the most recent release of the corpus:
 
-* [current.json](draft_standard/current.json)
+* [train/dev/test split for the most recent release of the corpus](draft_standard/2023-06-08_split.json)
 
 Other contents of this repository include:
 
