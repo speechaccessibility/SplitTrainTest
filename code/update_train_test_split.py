@@ -37,17 +37,6 @@ TRAIN_DEV_TEST_FRACTIONS = np.array([ 0.80, 0.05, 0.15])
 # ]
 #
 
-def cache_key(assignment):
-    '''
-    Convert an assignment into a tuple of tuples, for use as a key to the cache
-    @return:
-    tuple of tuples: ((train contributor_ids),(dev contributor_ids),(test contributor_ids))
-    '''
-    return (tuple(sorted(assignment['train'])),
-            tuple(sorted(assignment['dev'])),
-            tuple(sorted(assignment['test'])))
-    
-
 class Score_Cache():
     def __init__(self, feature, num_new, prev, unassigned):
         '''
@@ -62,7 +51,8 @@ class Score_Cache():
         '''
         self.feature = {f:{c:[x for x in feature[f][c]] for c in feature[f]} for f in feature}
         self.num = {s:n for (s,n) in num_new.items()}
-        self.assigned = tuple(tuple(c for c in prev[s]) for s in ['train','dev','test'])
+        self.prev = tuple(tuple(c for c in prev[s]) for s in ['train','dev','test'])
+        self.assigned = [c for s in ['train','dev','test'] for c in prev[s]]
         self.unassigned = [c for c in unassigned]
         self.cache = {}
 
@@ -72,7 +62,7 @@ class Score_Cache():
         @return:
         assignment (tuple of tuples): assignment[n]==tuple of contributor_ids, n in 0,1,2
         '''
-        assignment = [ list(split) for split in self.assigned ]
+        assignment = [ list(split) for split in self.prev ]
         random.shuffle(self.unassigned)
         assignment[0].extend(self.unassigned[:self.num['train']])
         assignment[1].extend(self.unassigned[self.num['train']:self.num['train']+self.num['dev']])
@@ -83,6 +73,29 @@ class Score_Cache():
                 tuple(sorted(assignment[1])),
                 tuple(sorted(assignment[2])))
 
+    def neighbors(self,inp):
+        '''
+        Returns a generator that generates all neighboring assignments
+        that are possible without moving one of the contributors in self.assigned.
+        'Neighboring' means that one pair of contributors has been swapped
+        from train to dev, from dev to test, or from train to test,
+        and the resulting tuples have been resorted.
+        @param:
+        inp (tuple) - inp[0,1,2] is tuple of train,dev,test contributor IDs
+        @yield:
+        ret (tuple) - ret[0,1,2] is tuple of train,dev,test contributor IDs
+        '''
+        for (s0,s1,s2) in [(0,1,2),(0,2,1),(2,1,0)]:
+            for n0 in range(len(inp[s0])):
+                if inp[s0][n0] not in self.assigned:
+                    for n1 in range(len(inp[s1])):
+                        if inp[s1][n1] not in self.assigned:
+                            r = {}
+                            r[s0]=tuple(sorted([x for x in inp[s0] if x != inp[s0][n0]]+[inp[s1][n1]]))
+                            r[s1]=tuple(sorted([x for x in inp[s1] if x != inp[s1][n1]]+[inp[s0][n0]]))
+                            r[s2] = inp[s2]
+                            yield (r[0],r[1],r[2])
+        
     def score_assignment(self, assignment):
         '''
         Compute score for a given assignment.
@@ -120,7 +133,7 @@ class Score_Cache():
                         i0 = np.arange(len(s0))
                         i1 = np.floor(i0*len(s1)/len(s0)).astype('int')
                         score += np.sum(np.abs(s0[i0]-s1[i1]))/denominator
-        self.cache[cache_key] = score
+        self.cache[assignment] = score
         return score
 
     def print_differences(self, a1, a2):
@@ -135,7 +148,7 @@ class Score_Cache():
                     delta[s].append(c)
         return delta
     
-    def coordinate_search(self, original):
+    def neighbor_search(self, original):
         '''
         Find the best score reachable by coordinate descent from initial assignment
         @param:
@@ -153,7 +166,7 @@ class Score_Cache():
         while score < prev_score:
             pathlength += 1
             prev_score = score
-            for n, test_assignment in enumerate(neighbors(assignment)):
+            for n, test_assignment in enumerate(self.neighbors(assignment)):
                 test_score = self.score_assignment(test_assignment)
                 if n % 1000 == 0:
                     delta = self.print_differences(assignment, test_assignment)
@@ -202,26 +215,6 @@ class Score_Cache():
                        
 
 
-def neighbors(inp):
-    '''
-    Returns a generator that generates all neighboring assignments.
-    'Neighboring' means that one pair of contributors has been swapped
-    from train to dev, from dev to test, or from train to test,
-    and the resulting tuples have been resorted.
-    @param:
-    inp (tuple) - inp[0,1,2] is tuple of train,dev,test contributor IDs
-    @yield:
-    ret (tuple) - ret[0,1,2] is tuple of train,dev,test contributor IDs
-    '''
-    for (s0,s1,s2) in [(0,1,2),(0,2,1),(2,1,0)]:
-        for n0 in range(len(inp[s0])):
-            for n1 in range(len(inp[s1])):
-                r = {}
-                r[s0] = tuple(sorted([ x for x in inp[s0] if x != inp[s0][n0] ]+[ inp[s1][n1] ]))
-                r[s1] = tuple(sorted([ x for x in inp[s1] if x != inp[s1][n1] ]+[ inp[s0][n0] ]))
-                r[s2] = inp[s2]
-                yield (r[0],r[1],r[2])
-        
 def search_with_restarts(feature, num_new, prev, unassigned, beamwidth, n_restarts):
     '''
     Randomly restart the coordinate search <n_restarts> times.
@@ -245,20 +238,20 @@ def search_with_restarts(feature, num_new, prev, unassigned, beamwidth, n_restar
     score_cache = Score_Cache(feature, num_new, prev, unassigned)
     for i_restart in range(n_restarts):
         assignment = score_cache.randomly_assign()
-        score, assignment, pathlength = score_cache.coordinate_search(assignment)
-        for i_sc in range(len(best_scores)):
+        score, assignment, pathlength = score_cache.neighbor_search(assignment)
+        for i_sc in range(len(best_scores)): 
             if assignment == best_assignments[i_sc]:
                 break # We already had this assignment - no need to store it again
             if score < best_scores[i_sc]:  # Otherwise, if it's better than i'th best, store it
                 best_scores[i_sc], score = score, best_scores[i_sc]
                 best_assignments[i_sc], assignment = assignment, best_assignments[i_sc]
         print('Restart %d: %g after %d iterations'%(i_restart,best_scores[0],pathlength))
-
-    outputdicts = []
-    for i_b in range(beamwidth):
-        if best_assignments[i_b]:
-            outputdicts.append(score_cache.create_output_dict(best_assignments[i_b],best_scores[i_b]))
-    return outputdicts
+        
+        outputdicts = []
+        for i_b in range(beamwidth):
+            if best_assignments[i_b]:
+                outputdicts.append(score_cache.create_output_dict(best_assignments[i_b],best_scores[i_b]))
+        yield outputdicts
 
 
 def main(datadir, prevsplitfile, beamwidth, n_restarts, outputfile):
@@ -266,9 +259,11 @@ def main(datadir, prevsplitfile, beamwidth, n_restarts, outputfile):
     Create and return a new train/dev/test split based on previous splits.
     @param:
     datadir (str): directory containing data
-    prevsplit (str): file containing previous split, or none
-    @return:
-    outputsplit (dict): the output split
+    prevsplitfile (str): file containing previous split, or none
+    beamwidth (int): number of results of best-neighbor descent to report
+    n_restarts (int): number of times to randomly restart best-neighbor descent
+    outputfile (str): output filenames are constructed from this by adding integers,
+      e.g., 0 is added to best result, 1 is added to second-best, et cetera.
     '''
 
     # Read the ratings from speaker data files
@@ -303,9 +298,9 @@ def main(datadir, prevsplitfile, beamwidth, n_restarts, outputfile):
     #print('%d contributors found:'%(len(contributors)))
     #print(contributors)
     unassigned = list(contributors)
-    for s in prev:
+    for s in ['train','dev','test']:
         for c in prev[s]:
-            unassigned.delete(c)
+            unassigned.remove(c)
     #print('%d were unassigned:'%(len(unassigned)))
     #print(unassigned)
             
@@ -327,14 +322,14 @@ def main(datadir, prevsplitfile, beamwidth, n_restarts, outputfile):
     }
 
     print('Will assign %d, %d, %d, for total of %d, %d, %d in train, dev, test'%(num_new['train'],num_new['dev'],num_new['test'],target_int[0],target_int[1],target_int[2]))
-    
-    outputdicts = search_with_restarts(feature, num_new, prev, unassigned, beamwidth, n_restarts)
-    print('RESULT: %d restarts, beam=%d, %d distinct outputs'%(n_restarts,beamwidth,len(outputdicts)))
 
-    (outputbase, outputext) = os.path.splitext(outputfile)
-    for filenum in range(len(outputdicts)):
-        with open("%s%d%s"%(outputbase,filenum,outputext), 'w') as f:
-            json.dump(outputdicts[filenum], f, indent=2)
+    for outputdicts in search_with_restarts(feature, num_new, prev, unassigned, beamwidth, n_restarts):
+        print('RESULT: %d restarts, beam=%d, %d distinct outputs'%(n_restarts,beamwidth,len(outputdicts)))
+
+        (outputbase, outputext) = os.path.splitext(outputfile)
+        for filenum in range(len(outputdicts)):
+            with open("%s%d%s"%(outputbase,filenum,outputext), 'w') as f:
+                json.dump(outputdicts[filenum], f, indent=2)
               
 ################################################################################################
 # Command line arguments
