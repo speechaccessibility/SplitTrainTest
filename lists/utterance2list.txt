@@ -1,0 +1,928 @@
+twolists:
+
+Map a route to the Airbnb. ['list1', 'list2']
+Is there a chance of rain on Monday? ['list1', 'list2']
+Is the Guggenheim ADA compliant? ['list1', 'list2']
+Set an alarm in 10 minutes. ['list1', 'list2']
+Broadcast 'It's time for breakfast.' ['list1', 'list2']
+Add a mini pocket projector for Kanti to my gift list. ['list1', 'list2']
+Please call area code 555-333-1000. ['list1', 'list2']
+Find me flights to Newport News, Virginia. ['list1', 'list2']
+Add 3 pairs of socks, pears, apples, and carrots to the shopping list. ['list1', 'list2']
+Cancel alarm for 11. ['list1', 'list2']
+Dim the kitchen lights to 10%. ['list1', 'list2']
+Play the latest episode of 'The Daily' podcast. ['list1', 'list2']
+Is Glacier National Park wheelchair accessible? ['list1', 'list2']
+How many calories does a slice of sausage pizza have? ['list1', 'list2']
+Schedule a refill for my amantadine prescription. ['list1', 'list2']
+What are the side effects of atorvastatin? ['list1', 'list2']
+Set a reminder for my dentist appointment. ['list1', 'list2']
+Navigate to home. ['list1', 'list2']
+Cancel my meeting with Kiley Jokin at 9 AM on July 14th, 2023. ['list1', 'list2']
+Video call area code 650-253-0000. ['list1', 'list2']
+How do you spell 'corona virus'? ['list1', 'list2']
+Play music on kitchen speakers. ['list1', 'list2']
+Find me a gluten-free pancake recipe with buttermilk, coconut, and cinnamon. ['list2', 'list3']
+How do you spell 'definitely'? ['list2', 'list3']
+Is there a chance of rain on Tuesday? ['list2', 'list3']
+Set a reminder for Kerstin's recital. ['list2', 'list3']
+Cancel alarm for 10. ['list2', 'list3']
+Video call 1-800-692-7753. ['list2', 'list3']
+How many calories does a piece of grilled salmon have? ['list2', 'list3']
+Find me flights to Tampa, Florida. ['list2', 'list3']
+Dim the family room lights to 20%. ['list2', 'list3']
+Is the nearest bank wheelchair accessible? ['list2', 'list3']
+Add spaghetti, frozen cauliflower, bananas, and 3 jars of salsa to the shopping list. ['list2', 'list3']
+What are the side effects of omeprazole? ['list2', 'list3']
+Play the latest episode of 'The NPR Newsroom' on Spotify. ['list2', 'list3']
+Set an alarm in 15 minutes. ['list2', 'list3']
+Cancel my meeting with Jiro Thomas at 9 PM, Saturday. ['list2', 'list3']
+Schedule a refill for my tramadol prescription. ['list2', 'list3']
+Map a route to our hotel. ['list2', 'list3']
+Is the nearest subway station ADA compliant? ['list2', 'list3']
+Play music on dining room speakers. ['list2', 'list3']
+Please call CVS Pharmacy. ['list2', 'list3']
+Broadcast 'I'm home.' ['list2', 'list3']
+Find me flights to Boston Logan. ['list3', 'list4']
+Broadcast 'It's movie time.' ['list3', 'list4']
+What are the side effects of metformin? ['list3', 'list4']
+Map a route to 30th Street Station. ['list3', 'list4']
+How do you spell 'separate'? ['list3', 'list4']
+Video call 1-800-642-7676. ['list3', 'list4']
+Add a 1,500 piece jigsaw puzzle for Janella to my gift list. ['list3', 'list4']
+Is there a chance of rain on the 13th? ['list3', 'list4']
+Is the waterpark at Six Flags White Water wheelchair accessible? ['list3', 'list4']
+Navigate to Dallas, TX. ['list3', 'list4']
+Play music on bedroom speakers. ['list3', 'list4']
+Cancel alarm for 4:30. ['list3', 'list4']
+How many calories does a cup of blueberries have? ['list3', 'list4']
+Set an alarm in 20 minutes. ['list3', 'list4']
+Please call Santander Bank. ['list3', 'list4']
+Cancel my meeting with Sib and Gertrud at 9:30 AM, Sunday. ['list3', 'list4']
+Add sugar, flour, flower seeds, and fertilizer to the shopping list. ['list3', 'list4']
+Set a reminder for Shakir's holiday party. ['list3', 'list4']
+Schedule a refill for my zolpidem prescription. ['list3', 'list4']
+Dim the home theater lights to 40%. ['list3', 'list4']
+Play the latest episode of 'Stuff You Should Know'. ['list3', 'list4']
+Is Smithsonian Air and Space Museum ADA compliant? ['list3', 'list4']
+Find me a vegetarian stew recipe with smoked paprika, fresh garlic, and lentils. ['list4', 'list5']
+Cancel alarm for 8. ['list4', 'list5']
+Add rechargeable hand warmers for Robert to my gift list. ['list4', 'list5']
+Map a route to Dallas Fortworth International Airport. ['list4', 'list5']
+Find me flights to Kansas City, Kansas. ['list4', 'list5']
+Play music on office speakers. ['list4', 'list5']
+Is Yellowstone National Park ADA compliant? ['list4', 'list5']
+Add frozen strawberries, blueberries, a case of paper towels, and cereal to the shopping list. ['list4', 'list5']
+Navigate to Walgreens. ['list4', 'list5']
+Schedule a refill for my clonazepam prescription. ['list4', 'list5']
+Play the latest episode of 'Crime Junkie'. ['list4', 'list5']
+Please call Kathy Bianco. ['list4', 'list5']
+How do you spell 'succeed'? ['list4', 'list5']
+Broadcast 'The football game is about to start.' ['list4', 'list5']
+Is there a chance of rain on the 16th? ['list4', 'list5']
+Dim the porch lights to 70%. ['list4', 'list5']
+Set a reminder for our dinner reservation on Friday. ['list4', 'list5']
+Is the observatory at the Willis Tower wheelchair accessible? ['list4', 'list5']
+Video call Lennart Vass. ['list4', 'list5']
+What are the side effects of losartan? ['list4', 'list5']
+How many calories does a Big Mac have? ['list4', 'list5']
+Set an alarm in 30 minutes. ['list4', 'list5']
+Is there a chance of rain on the 20th? ['list5', 'list6']
+Lower the temperature 4 degrees. ['list1', 'list6']
+Broadcast 'The coffee's ready.' ['list5', 'list6']
+Add ingredients for chili, pizza dough, shredded mozzarella, and heel balm to the shopping list. ['list5', 'list6']
+Cancel alarm for 7:30. ['list5', 'list6']
+Turn down the temperature 1 degree. ['list1', 'list6']
+How much is $1 in euros? ['list1', 'list6']
+Raise the temperature 3 degrees. ['list1', 'list6']
+Play music on playroom speakers. ['list5', 'list6']
+Dim the hallway lights to 10%. ['list5', 'list6']
+What are the side effects of levothyroxine? ['list5', 'list6']
+Add a hair dryer brush for Nessa to my gift list. ['list5', 'list6']
+I parked on level 5. ['list1', 'list6']
+Please call Carola Fulton. ['list5', 'list6']
+Is Alaska Center for the Performing Arts ADA compliant? ['list5', 'list6']
+Find me flights to Barcelona, Spain. ['list5', 'list6']
+Navigate to CVS. ['list5', 'list6']
+Play the latest episode of 'Ologies'. ['list5', 'list6']
+Set the air conditioning to 70. ['list1', 'list6']
+Find me a holiday cocktail recipe with cranberry juice and gin. ['list5', 'list6']
+Remind me to take a break in 25 minutes. ['list1', 'list6']
+Schedule a refill for my pantoprazole prescription. ['list5', 'list6']
+Video call Martin Starosta. ['list5', 'list6']
+Turn up the temperature 2 degrees. ['list1', 'list6']
+Cancel my meeting with Sanjiv Lynne at 2:30 PM, Tuesday the 9th. ['list5', 'list6']
+Skip backward 10 seconds. ['list1', 'list6']
+Set a reminder for Molly's vet appointment. ['list5', 'list6']
+Map a route to John F. Kennedy Airport. ['list5', 'list6']
+Set the heat to 62. ['list1', 'list6']
+What's $10,000 in British Pounds? ['list1', 'list6']
+Set an alarm in 40 minutes. ['list5', 'list6']
+What's the conversion of 24 ounces to grams? ['list1', 'list6']
+How do you spell 'government'? ['list5', 'list6']
+Fast forward 1 minute. ['list1', 'list6']
+Tell me about the LA Lakers. ['list1', 'list6']
+My parking space is blue. ['list1', 'list6']
+Skip forward 5 seconds. ['list1', 'list6']
+How do you spell 'paraoh'? ['list6', 'list7']
+Fast forward 2 minutes. ['list2', 'list7']
+Play music on garage speakers. ['list6', 'list7']
+Video call Mike Castelo. ['list6', 'list7']
+Schedule a refill for my pravastatin prescription. ['list6', 'list7']
+How many calories does 3 teaspoons of brown sugar have? ['list6', 'list7']
+Map a route to Port Authority. ['list6', 'list7']
+Is the nearest movie theater ADA compliant? ['list6', 'list7']
+Set the air conditioning to 72. ['list2', 'list7']
+Broadcast '10 minutes until bedtime.' ['list6', 'list7']
+Dim the nightlight to 80%. ['list6', 'list7']
+What's $100,000 in British Pounds? ['list2', 'list7']
+Please call Vikram Salva. ['list6', 'list7']
+Set a reminder for the twins' birthday party. ['list6', 'list7']
+Skip backward 15 seconds. ['list2', 'list7']
+What's the conversion of 32 ounces to cups? ['list2', 'list7']
+How much is $5 in euros? ['list2', 'list7']
+Skip forward 10 seconds. ['list2', 'list7']
+Is there a chance of rain this afternoon? ['list6', 'list7']
+Tell me about the Golden State Warriors. ['list2', 'list7']
+Add gold hoop earrings for mom to my gift list. ['list6', 'list7']
+What are the side effects of gabapentin? ['list6', 'list7']
+Raise the temperature 4 degrees. ['list2', 'list7']
+Turn up the temperature 3 degrees. ['list2', 'list7']
+Add whole pecans, eye drops, leeks, and 2 cartons of half-and-half to the shopping list. ['list6', 'list7']
+Set an alarm in 45 minutes. ['list6', 'list7']
+Find me flights to Detroit, Michigan. ['list6', 'list7']
+Navigate to Denver International Airport. ['list6', 'list7']
+Lower the temperature 5 degrees. ['list2', 'list7']
+Remind me to take a break in 30 minutes. ['list2', 'list7']
+My parking space is green. ['list2', 'list7']
+Play the latest episode of 'If Books Could Kill' on Spotify. ['list6', 'list7']
+Is the bakery on the corner of Second and Elm wheelchair accessible? ['list6', 'list7']
+Turn down the temperature 2 degrees. ['list2', 'list7']
+Set the heat to 66. ['list2', 'list7']
+Find me a homemade yogurt recipe with 2% milk . ['list6', 'list7']
+I parked on level 1. ['list2', 'list7']
+What's the conversion of 48 ounces to pounds? ['list3', 'list8']
+Set the heat to 68. ['list3', 'list8']
+I parked on level 2. ['list3', 'list8']
+How do you spell 'multiplication'? ['list7', 'list8']
+What's $1 million in British Pounds? ['list3', 'list8']
+Skip backward 30 seconds. ['list3', 'list8']
+Is the St. Louis Arch ADA compliant? ['list7', 'list8']
+Is there a chance of rain tonight? ['list7', 'list8']
+Find me flights to Kathmandu, Nepal. ['list7', 'list8']
+My parking space is orange. ['list3', 'list8']
+How much is $10 in euros? ['list3', 'list8']
+Dim the dining room lights to 10%. ['list7', 'list8']
+Turn up the temperature 4 degrees. ['list3', 'list8']
+Cancel my meeting with Soren Ignaz at 8:15 AM, Thursday the 30th. ['list7', 'list8']
+What are the side effects of fluoxetine? ['list7', 'list8']
+Raise the temperature 5 degrees. ['list3', 'list8']
+Set the air conditioning to 74. ['list3', 'list8']
+Lower the temperature 1 degree. ['list3', 'list8']
+Fast forward 3 minutes. ['list3', 'list8']
+Set an alarm in 60 minutes. ['list7', 'list8']
+Add meat for grilling, pre-cut vegetables, teriyaki sauce, and bamboo skewers to the shopping list. ['list7', 'list8']
+Play music on guest room speakers. ['list7', 'list8']
+Turn down the temperature 3 degrees. ['list3', 'list8']
+Find me a Cook's Illustrated recipe with sriracha, noodles, and cabbage. ['list7', 'list8']
+Please call Amalia Adamson. ['list7', 'list8']
+Remind me to take a break in 45 minutes. ['list3', 'list8']
+Navigate to O'Hare Airport. ['list7', 'list8']
+Is the Space Needle in Seattle wheelchair accessible? ['list7', 'list8']
+Video call Pat Etienne. ['list7', 'list8']
+Broadcast 'It's time to take your pills.' ['list7', 'list8']
+Map a route to the closest car charging station. ['list7', 'list8']
+Skip forward 15 seconds. ['list3', 'list8']
+Play the latest episode of 'Scamfluencers'. ['list7', 'list8']
+Tell me about Manchester United. ['list3', 'list8']
+Add a compact air fryer for Sara to my gift list. ['list7', 'list8']
+How many calories does a Snickers bar have? ['list7', 'list8']
+Cancel alarm for 5:15. ['list7', 'list8']
+Schedule a refill for my furosemide prescription. ['list7', 'list8']
+Set a reminder for the next partial lunar eclipse. ['list7', 'list8']
+Skip forward 30 seconds. ['list4', 'list9']
+Remind me to take a break in 50 minutes. ['list4', 'list9']
+Add vanilla mousse, mussels, non-fat Greek yogurt, and triple A batteries to the shopping list. ['list8', 'list9']
+I parked on level 3. ['list4', 'list9']
+Fast forward 4 minutes. ['list4', 'list9']
+Tell me about the Green Bay Packers. ['list4', 'list9']
+Cancel alarm for 6:00 PM. ['list8', 'list9']
+How many calories does 15 baby carrots and a scoop of hummus have? ['list8', 'list9']
+Find me a Bon Appetit recipe with cilantro, parsley, chicken, and fresh garlic. ['list8', 'list9']
+Please call Penn Reiter. ['list8', 'list9']
+Set an alarm in 90 minutes. ['list8', 'list9']
+What's $1,000 in British Pounds? ['list4', 'list9']
+How do you spell 'confident'? ['list8', 'list9']
+How much is $100 in euros? ['list4', 'list9']
+Set a reminder for the day spring training starts. ['list8', 'list9']
+Is the closest library ADA compliant? ['list8', 'list9']
+Skip backward 1 minute. ['list4', 'list9']
+Cancel my meeting with Valli Sylvia at 1:15, 8/15/2023. ['list8', 'list9']
+Lower the temperature 2 degrees. ['list4', 'list9']
+Video call Leo Rodrigues. ['list8', 'list9']
+Set the heat to 70. ['list4', 'list9']
+What are the side effects of sertraline? ['list8', 'list9']
+Find me flights to Munich, Germany. ['list8', 'list9']
+Is there a chance of rain in the morning? ['list8', 'list9']
+Turn down the temperature 4 degrees. ['list4', 'list9']
+Schedule a refill for my loratadine prescription. ['list8', 'list9']
+Raise the temperature 1 degree. ['list4', 'list9']
+My parking space is red. ['list4', 'list9']
+Navigate to Los Angeles Union Station. ['list8', 'list9']
+Is Panama City Beach Conservation Park wheelchair accessible? ['list8', 'list9']
+Play the latest episode of 'Ten Percent Happier' with Dan Harris on Spotify. ['list8', 'list9']
+Play music on bathroom speakers. ['list8', 'list9']
+Map a route to the airport's cell phone lot. ['list8', 'list9']
+What's the conversion of 60 ounces to quarts? ['list4', 'list9']
+Set the air conditioning to 76. ['list4', 'list9']
+Add a weighted blanket for Abigail to my gift list. ['list8', 'list9']
+Dim the playroom lights to 20%. ['list8', 'list9']
+Turn up the temperature 5 degrees. ['list4', 'list9']
+Broadcast 'We're leaving in 15 minutes.' ['list8', 'list9']
+Set the air conditioning to 78. ['list5', 'list10']
+Skip forward 45 seconds. ['list5', 'list10']
+What are the side effects of lisinopril? ['list1', 'list10']
+How many calories does a boiled egg have? ['list1', 'list10']
+Cancel my meeting with Nova Rawda at 12:30. ['list1', 'list10']
+How much is $150 in euros? ['list5', 'list10']
+How do you spell 'quarantine'? ['list1', 'list10']
+Fast forward 5 minutes. ['list5', 'list10']
+Dim the living room lights to 50%. ['list1', 'list10']
+Is Comerica Park ADA compliant? ['list1', 'list10']
+Broadcast 'Be sure you have your keys, your mask, and your cell phone.' ['list9', 'list10']
+Play music on den speakers. ['list9', 'list10']
+Is the Thompson-Boling Arena ADA compliant? ['list9', 'list10']
+Set an alarm in 2 hours minutes. ['list9', 'list10']
+Find me a kid-friendly casserole recipe with avocados and cherry tomatoes. ['list9', 'list10']
+How many calories does a handful of walnuts have? ['list9', 'list10']
+Raise the temperature 2 degrees. ['list5', 'list10']
+Turn up the temperature 1 degree. ['list5', 'list10']
+Is Planet Hollywood in Las Vegas wheelchair accessible? ['list9', 'list10']
+I parked on level 4. ['list5', 'list10']
+Add red wine vinegar, frozen onion rings, barbecue sauce, and filet of sole to the shopping list. ['list9', 'list10']
+Add a reversible octopus plush for Thea to my gift list. ['list9', 'list10']
+Set a reminder for my wedding anniversary. ['list1', 'list10']
+How do you spell 'exercise'? ['list9', 'list10']
+Find me flights to San Francisco. ['list1', 'list10']
+Cancel my meeting with Nisha Kamal at 10 AM, next Friday. ['list9', 'list10']
+What's the conversion of 16 ounces to liters? ['list5', 'list10']
+Navigate to mom's house. ['list1', 'list10']
+Add a t-shirt for Joe to my gift list. ['list1', 'list10']
+Is South Rim Trail of the Grand Canyon wheelchair accessible? ['list1', 'list10']
+Please call Marc Shultheiss. ['list9', 'list10']
+Add laundry detergent, toothpaste, aluminum foil, and cranberry juice to the shopping list. ['list1', 'list10']
+Find me a smoothie recipe with pineapple, blueberries, bananas, and orange juice. ['list1', 'list10']
+What are the side effects of trazodone? ['list9', 'list10']
+My parking space is purple. ['list5', 'list10']
+What's $1 in British Pounds? ['list5', 'list10']
+Schedule a refill for my levodopa prescription. ['list1', 'list10']
+Map a route to Scottsdale, Arizona. ['list1', 'list10']
+Cancel alarm for 6:45 AM. ['list9', 'list10']
+Set the heat to 72. ['list5', 'list10']
+Remind me to take a break in 15 minutes. ['list5', 'list10']
+Play music on living room speakers. ['list1', 'list10']
+Cancel alarm for 9 PM. ['list1', 'list10']
+Map a route to the nearest metro station. ['list9', 'list10']
+Please call 555-244-2922. ['list1', 'list10']
+Schedule a refill for my insulin prescription. ['list9', 'list10']
+Navigate to the nearest gas station. ['list9', 'list10']
+Set a reminder for when tickets for Jimmy Buffett go on sale. ['list9', 'list10']
+Is there a chance of rain overnight ? ['list9', 'list10']
+Set an alarm in 5 minutes. ['list1', 'list10']
+Turn down the temperature 5 degrees. ['list5', 'list10']
+Skip backward 2 minutes. ['list5', 'list10']
+Play the latest episode of 'This American Life'. ['list1', 'list10']
+Play the latest episode of 'Spittin Chiclets'. ['list9', 'list10']
+Dim the den lights to 20%. ['list9', 'list10']
+Video call Ed Fujiwara. ['list9', 'list10']
+Broadcast 'It's time to wake up.' ['list1', 'list10']
+Video call 217-244-1176. ['list1', 'list10']
+Find me flights to Budapest, Hungary. ['list9', 'list10']
+Lower the temperature 3 degrees. ['list5', 'list10']
+Is there a chance of rain tomorrow? ['list1', 'list10']
+
+
+onelists:
+
+What's the distance to Pluckley, England? list1
+Who won the baseball game yesterday? list1
+What's the latest in the World Cup? list1
+How do you say 'dinner' in Spanish? list1
+Play 'Me and Bobby McGee' by Janis Joplin. list1
+Set an alarm for 7:00 AM. list1
+How tall is Mount Everest ? list1
+How far is Walmart from here? list1
+Make me a reservation at Archibald's. list1
+Do I have anything scheduled for Monday? list1
+Who is the lead character in 'Star Wars'? list1
+Buy tickets at 11 AM. list1
+What are the best places for vacation in January? list1
+How far is home from Vietnam? list1
+Tell me news from ABC. list1
+Turn off the basement light. list1
+Open Gmail to send a message to Layne Banks. list1
+Turn on the kitchen light. list1
+Remember that I put my passport in the filing cabinet. list1
+Preheat the oven to 200 degrees. list1
+Read 'To Kill A Mockingbird' on Audiobook. list1
+What was the score for the last Indiana Fever game? list1
+When are the Boston Red Sox playing next? list1
+Open Microsoft Word. list1
+Set a timer for 40 minutes. list1
+Who's winning between the Packers and the Chicago Bears? list1
+Set a timer for baked chicken for 2 and a half hours. list1
+Set the volume to 6. list1
+Send an email to Jasmine Witherspoon. list1
+What's the weather like in Boston? list1
+How's the traffic to Orlando, Florida? list1
+Listen to CNN. list1
+How far is West Orange, New Jersey from here? list1
+Turn off the lights in the hall closet. list1
+Show me photos from my last vacation. list1
+What time is it in Boulder City, Nevada? list1
+Play 'Stranger Things' on Netflix. list1
+Play a Beatles song on Amazon music. list1
+Turn the TV to ABC. list1
+Show me an image of baby animals. list1
+Brighten the the living room light. list1
+Find non-stop flights to New York on American Airlines. list1
+How do I make chicken soup? list1
+When is Macy's open until? list1
+Show me movies with Jack Nicholson. list1
+Is ALDI open today? list1
+What's the Netflix stock price? list1
+Wake me up at 5:15 AM every day. list1
+Wikipedia Random Page. list1
+How much is a round-trip flight to Toronto? list1
+Define 'ubiquitous'. list1
+Wake me up at 6:15 PM Friday. list1
+What's Disney trading at? list1
+Create a Costco shopping list. list1
+Did the Manchester United win? list1
+Book a table for 2 at 3 Arts Club Café at RH Chicago. list1
+Reschedule my meeting with Demetri Lucien at 9, Friday. list1
+Book me a room at Marriott in Cincinnati, Ohio on January 18th through 23rd. list1
+How did the Miami Dolphins game turn out yesterday? list1
+Open Netflix. list1
+Find me a soup recipe with canned tomatoes, leftover rice, and celery. list1
+Play hip hop music on Apple music. list2
+Send an email to UPS Customer Service. list2
+Show me photos from Thanksgiving. list2
+When are the Detroit Red Wings playing next? list2
+Find me a  soup recipe with canned tomatoes, leftover rice, and celery. list2
+Turn off the living room light. list2
+What's the Samsung stock price? list2
+Open Facebook Messenger to send a message to Dyson Bunker. list2
+What are the best places for vacation in February? list2
+How's the traffic to Waikiki Beach? list2
+How tall is the Statue of Liberty ? list2
+Do I have anything scheduled for Tuesday? list2
+How far is Target from here? list2
+What's the weather like in Chicago? list2
+Read 'One Hundred Years' of Solitude on Audiobook. list2
+Brighten the family room light. list2
+Who's winning between the Lakers and the Celtics? list2
+How far is home from South Elgin, Illinois? list2
+Wikipedia Cristiano Ronaldo. list2
+Book a table for 4 at Al Biernat's Oak Lawn. list2
+Turn the TV to BBC. list2
+How did the Chicago Bears game turn out yesterday? list2
+Add a Fidget toy pen for Gowri to my gift list. list2
+What time is it in Emmaus, Pennsylvania? list2
+Open Yelp. list2
+When is Shake Shack open until? list2
+How far is Boulder City, Nevada from here? list2
+Who is the lead character in 'Mamma Mia'? list2
+Is Best Buy open today? list2
+Preheat the oven to 225 degrees. list2
+What's Netflix trading at? list2
+Set a timer for 45 minutes. list2
+Book me a room at Embassy Suites in Lorton, Virginia on February 1st and 2nd. list2
+Buy tickets at 2:45 PM. list2
+What's the distance to Munich, Germany? list2
+Show me movies with Denzel Washington. list2
+How much is a round-trip flight to Manchester, New Hampshire? list2
+Wake me up at 5:30 AM every day. list2
+Who won the basketball game yesterday? list2
+Did the Columbus Blue Jackets win? list2
+Set a timer for chili for one hour. list2
+Play 'The Godfather' on Prime Video. list2
+How do I make chocolate souffle? list2
+Make me a reservation at Diaz Café. list2
+Turn on the basement light. list2
+Play 'Help' by The Beatles. list2
+Create a Kroger shopping list. list2
+Tell me news from CNN. list2
+Listen to FOX. list2
+Open Hulu. list2
+Define 'pretentious'. list2
+Set an alarm for quarter to 10 AM. list2
+Reschedule my meeting with Chanelle Kellen at noon, May 1st, Friday. list2
+Remember that I left my wallet and car keys on the counter. list2
+What's the latest in the election? list2
+Set the volume to 7. list2
+Navigate to Target. list2
+Wake me up at 6:30 AM Tuesday. list2
+Turn off the lights in the kids' room. list2
+Find non-stop flights to Estonia on Lufthansa. list2
+How do you say 'restroom' in French? list2
+What was the score for the last D.C. United game? list2
+Show me an image of spring flowers. list2
+Add a fidget toy pen for Gowri to my gift list. list3
+Set an alarm for 3:45 PM on Thursday and Friday . list3
+Set a timer for 60 minutes. list3
+How tall is the Eiffel Tower ? list3
+Send an email to Hilton Hotels. list3
+Set a timer for yogurt maker for 24 hours. list3
+Wikipedia Game of Thrones. list3
+Listen to NPR. list3
+Show me photos from November 29th, 2018. list3
+Did the Wolverines win? list3
+What was the score for the last Texas Rangers game? list3
+How do you say 'thank you' in Japanese? list3
+When is Trader Joe's open until? list3
+How do I make an origami swan? list3
+Do I have anything scheduled for Wednesday? list3
+What's the Tesla stock price? list3
+What's the latest in local news? list3
+How much is a round-trip flight to Ljubljana, Slovenia? list3
+How's the traffic to Acadia National Park? list3
+Open Facebook Messenger. list3
+Navigate to Lowe's. list3
+Create a Target shopping list. list3
+What's Samsung trading at? list3
+Play 'The Shawshank Redemption' on HBO Max. list3
+Who won the NFL game yesterday? list3
+Show me movies with Benicio Del Toro. list3
+Make me a reservation at Guilford Lobster Pound. list3
+Read 'The Great Gatsby' on Audiobook. list3
+Buy tickets at 5:30 PM. list3
+Open Peacock. list3
+Play 'Go Your Own Way' by Fleetwood Mac. list3
+Find non-stop flights to Shanghai, China on Air China. list3
+Show me an image of deciduous trees. list3
+Book a table for 3 at Atlantic Fish. list3
+Send a message to Felicitas Sinagra. list3
+Is Starbucks open today? list3
+Tell me news from FOX. list3
+What's the distance to Fairfax, Virginia? list3
+Brighten the porch light. list3
+How did the New England Patriots game turn out yesterday? list3
+What time is it in Musk, Australia? list3
+Wake me up at 6 AM every day. list3
+Reschedule my meeting with Irene Anand at 4:15, Tuesday. list3
+Preheat the oven to 250 degrees. list3
+Turn on the living room light. list3
+Remember that I need to refill my prescription. list3
+Turn the TV to CNN. list3
+How far is the Lego Store from here? list3
+Book me a room at Fairfield Inn & Suites in New Mexico on March 21st through 27th. list3
+Play my dance playlist. list3
+Who's winning between the Red Sox and the Yankees? list3
+What's the weather like in Florida? list3
+Turn off the lights in the den. list3
+Turn off the family room light. list3
+How far is Sandhead, Scotland from home? list3
+Set the volume to 8. list3
+Find me a chicken and dumplings recipe with onions, carrots, turnips and potatoes . list3
+Wake me up at 8 AM Wednesday. list3
+When are the Pittsburgh Steelers playing next? list3
+What are the best places for vacation in March? list3
+How far is Emmaus, Pennsylvania from here? list3
+Define 'cynical'. list3
+Who is the lead character in the 'Nutcracker'? list3
+Wake me up at 6:30 AM every day. list4
+Book me a room at Hilton Garden Inn in Cedar Rapids, Iowa on April 30th through May 2nd. list4
+Listen to MSNBC. list4
+Find me a chicken and dumplings recipe with onions, carrots, turnips, and potatoes . list4
+Remember that it's Angelo's birthday tomorrow. list4
+Do I have anything scheduled for Thursday? list4
+Define 'apathetic'. list4
+Tell me news from NPR. list4
+What's the latest in the stock market? list4
+Play 'Star Wars: Episode Five - The Empire Strikes Back' on Hulu. list4
+Cancel my meeting with  Vincente & Lin at 1:45 PM, Tuesday. list4
+Set an alarm for 11:45 AM. list4
+What are the best places for vacation in April? list4
+What time is it in Manhattan, New York City? list4
+How far is Musk, Australia from here? list4
+Who is the lead character in 'Les Miserables'? list4
+Play my evening jazz playlist on Spotify. list4
+Preheat the oven to 275 degrees. list4
+Who won the soccer game yesterday? list4
+How far is Brattleboro, Vermont from Montreal, Canada? list4
+How did the Pittsburgh Pirates game turn out yesterday? list4
+How far is Kroger from here? list4
+How tall is Peppa Pig ? list4
+Buy tickets at 7:00 PM. list4
+Send an email to Malachi Janowski. list4
+Play 'Time of the Season' by The Zombies. list4
+Turn off the lights in the family room. list4
+Set a timer for 90 minutes. list4
+Reschedule my meeting with Fred Placid at 11:30, September 18th. list4
+Did the Utah Jazz win? list4
+What's the Apple stock price? list4
+Is Target open today? list4
+Show me photos from 4-30-2022. list4
+Who's winning between Ohio State and Michigan? list4
+Wikipedia list of presidents of the United States. list4
+Wake me up at 7 AM Monday. list4
+Create a Walmart shopping list. list4
+When is Walmart open until? list4
+Send a message to Ellinor Shehu. list4
+Turn the TV to NBC. list4
+How do I make a 13 pound turkey? list4
+Show me movies with Daniel Day-Lewis. list4
+Open my Outlook Calendar. list4
+How's the traffic to Hoover Dam? list4
+Read 'The Catcher in the Rye' on Audiobook. list4
+When are the Philadelphia Phillies playing next? list4
+Open Atlas Obscura. list4
+What's the weather like in North Carolina? list4
+Set a timer for bread for 50 minutes. list4
+Book a table for 6 at Bacari Silverlake. list4
+Turn off the porch light. list4
+Make me a reservation at Cantler's Riverside Inn. list4
+What's Tesla trading at? list4
+Turn on the dining room light. list4
+How much is a round-trip flight to Portland, Maine? list4
+Find non-stop flights to New York, New York on Jet Blue. list4
+Show me an image of man's first steps on the moon in 1969. list4
+What was the score for the last New Orleans Pelicans game? list4
+Brighten the closet light. list4
+How do you say 'good morning' in Polish? list4
+What's the distance to Salem, Massachusetts? list4
+Set the volume to 9. list4
+Did the Seattle Mariners win? list5
+Book me a room at Crowe Plaza Hotel in Grand Junction, Colorado on June 9th through June 19th. list5
+What time is it in Fairbanks, Alaska? list5
+Show me photos from the 18th of September. list5
+Play 'Indiana Jones and the Raiders of the Lost Ark' on Paramount Plus. list5
+What's the weather like in New York? list5
+What's Apple trading at? list5
+How tall is the tallest person who ever lived ? list5
+How far is Pisa, Italy from Rome, Italy? list5
+Remember that my PIN is 9374. list5
+How do I make brisket on the smoker? list5
+Read 'For Whom the Bell Tolls' on Audiobook. list5
+Tell me news from MSNBC. list5
+Open YouTube. list5
+How many calories does a pint of Ben and Jerry's ice cream have? list5
+Set the volume to 10. list5
+Do I have anything scheduled for Friday? list5
+Create a Sam's Club shopping list. list5
+What's the latest in science and technology? list5
+Show me movies with Troy Kotsur. list5
+Is Buca di Beppo open today? list5
+Send an email to SabinaK@westerly.edu. list5
+Send a message to Krasimir Gregory. list5
+Book a table for 6 at Baldamar. list5
+Open Duolingo. list5
+How do you say 'help me' in Mandarin Chinese? list5
+Listen to CBS. list5
+Cancel my meeting with Vincente & Lin at 1:45 PM, Tuesday. list5
+Find non-stop flights to Lisbon, Portugal on TAP. list5
+How did the Portland Timbers game turn out yesterday? list5
+Who is the lead character in 'Citizen Kane'? list5
+Who won the NHL game yesterday? list5
+Make me a reservation at Bayern Brewery. list5
+Wikipedia list of highest-grossing films. list5
+How much is a round-trip flight to Sedona, Arizona? list5
+Turn off the closet light. list5
+Play 'The Tears of a Clown' by Smokey Robinson and the Miracles. list5
+What was the score for the last LSU Tigers game? list5
+Reschedule my meeting with Virginia Daniel at 7, Saturday. list5
+What's the Microsoft stock price? list5
+How far is Bridgeport, California from here? list5
+When are the San Franscisco Giants playing next? list5
+What are the best places for vacation in June? list5
+Define 'conundrum'. list5
+Tell me about Seattle Sounders FC. list5
+Turn on the porch light. list5
+What's the distance to Hibbing, Minnesota? list5
+Wake me up at 6:45 AM every day. list5
+Turn off the lights in the guestroom. list5
+How far is Costco from here? list5
+Preheat the oven to 300 degrees. list5
+Turn the TV to CBS. list5
+When is Shell open until? list5
+Set an alarm for every Sunday at 8 PM. list5
+Show me an image of business meetings. list5
+Who's winning between Duke and North Carolina? list5
+Brighten the dining room light. list5
+Buy tickets at 6:15 PM. list5
+Wake me up at 9 o'clock Thursday. list5
+Is the dentist's office on Park St. wheelchair accessible? list5
+Set a timer for COVID-19 test for 15 minutes. list5
+Play Billboard's Top 40 on Pandora. list5
+How's the traffic to Mount Washington, New Hamshire? list5
+Set a timer for 1 hour minutes. list5
+Cancel alarm for noon. list6
+Create a grocery shopping list. list6
+Turn on the closet light. list6
+Show me movies with Viola Davis. list6
+Buy tickets at 8 PM. list6
+Tell me news from CBS. list6
+Remember that Oliver needs his heartworm medication refilled. list6
+Send a message to Hayri & Amador Teague. list6
+Wake me up at 7 AM every day. list6
+When is AMC Theater open until? list6
+Play 'Georgia on My Mind' by Ray Charles. list6
+Brighten the den light. list6
+Send an email to Maria.Sari@wildernessnet.org. list6
+Is the dentist's office on Park Street wheelchair accessible? list6
+What was the score for the last Nebraska Cornhuskers game? list6
+Wake me up at 2:45 PM Saturday and Sunday. list6
+Book a table for 2 at Campiello. list6
+How far is Disney World from Universal Studios? list6
+Set a timer for Marina's timeout for 10 minutes. list6
+Book me a room at  Best Western in Rocky Ridge, Maryland on July 13th and 14th. list6
+How did the Toronto Maple Leafs game turn out yesterday? list6
+Listen to The Weather Channel. list6
+Play 'The Lord of the Rings: The Two Towers'. list6
+How many calories does a pint of Ben and Jerry's Ice cream have? list6
+Wikipedia COVID-19 pandemic. list6
+How tall is the tallest basketball player? list6
+Is Ruth's Chris Steak House open today? list6
+How do you say 'How far is the hotel?' in Portuguese? list6
+Play 'The Dear Evan Hansen Soundtrack'. list6
+Set the volume to 1. list6
+Turn the TV to ESPN. list6
+Find non-stop flights to Melbourne, Australia on Qantas. list6
+Set a timer for 5 minutes. list6
+Open Apple TV. list6
+Turn off the dining room light. list6
+What's the weather like in Spain? list6
+How do I make a crocheted scarf? list6
+Open What's App. list6
+What are the best places for vacation in July? list6
+Read 'The Handmaid's Tale' on Audiobook. list6
+Show me an image of fluffy dogs. list6
+Who is the lead character in '2001: A Space Odyssey'? list6
+Preheat the oven to 350 degrees. list6
+What time is it in Toyko, Japan? list6
+Set an alarm for 5:30 AM on Thursday. list6
+Make me a reservation at 801 Chophouse. list6
+Show me photos from Jory's Graduation. list6
+How far is Manhattan, NYC from here? list6
+How's the traffic to Dodger's Stadium? list6
+Reschedule my meeting with Catherine Isabella at 8:30 AM, Monday. list6
+Cancel my meeting with Nelida Ausra on Monday morning, September First. list6
+Who's winning between the Giants and the Dodgers? list6
+Turn off the lights in the living room. list6
+When are the LA Galaxy playing next? list6
+Do I have anything scheduled for Saturday? list6
+Define 'albeit'. list6
+How much is a round-trip flight to Paris, France? list6
+Did the Penn State win? list6
+What's Microsoft trading at? list6
+What's the distance to Round Spring, Missouri? list6
+What's the Google stock price? list6
+Who won the hockey game yesterday? list6
+How far is IKEA from here? list6
+What's the latest in the NFL? list6
+How far is Toyko, Japan from here? list7
+When is Buffalo Wild Wings open until? list7
+Make me a reservation at Polly's Pancake Parlor. list7
+Wake me up at 8 AM every day. list7
+What's the latest in my Facebook notifications? list7
+Define 'ambiguous'. list7
+Open Candy Crush Saga. list7
+Who is the lead character in 'Harry Potter'? list7
+Is Barnes & Noble open today? list7
+Turn off the lights in the dining room. list7
+Who's winning between the Bruins and the Canadiens? list7
+Turn on the family room light. list7
+Show me an image of the Earth. list7
+What's the weather like in Australia? list7
+Listen to Bloomberg. list7
+When are the Nashville Predators playing next? list7
+Set an alarm for 6:30 PM Daily. list7
+How far is Shanghai, China from Beijing, China? list7
+Remember that I need to fuel the car before we head north. list7
+Book me a room at  Holiday Inn Express in Hanover, Pennsylvania on August 5th and 6th. list7
+Set a timer for 10 minutes. list7
+How tall is the tallest building in the world? list7
+Did the Fighting Illini win? list7
+Set the volume to 2. list7
+How did the Minnesota Timberwolves game turn out yesterday? list7
+Do I have anything scheduled for Sunday? list7
+Cancel alarm for Noon. list7
+Tell me news from The Weather Channel. list7
+How's the traffic to Home? list7
+What's Google trading at? list7
+Wake me up at 7:15 AM Sunday. list7
+What's the distance to Rockville, Maryland? list7
+Set a timer for osteoporosis pill for 60 minutes. list7
+Send a message to The Mounce Family. list7
+What was the score for the last New York Islanders game? list7
+Book a table for 8 at Coastal Fish Company. list7
+Create a Meijer shopping list. list7
+How do you say 'I want a small coffee' in Korean? list7
+Show me movies with Julianne Moore. list7
+What's the Meta stock price? list7
+Find non-stop flights to Dublin, Ireland on Air Canada. list7
+Play 'Frasier' on Peacock. list7
+How do I make a tie-dyed sweatshirt? list7
+Show me photos from New Year's Eve 2019. list7
+Who won the football game yesterday? list7
+Cancel my meeting with Nelida Ausra on Monday morning, September first. list7
+How much is a round-trip flight to London, England? list7
+Read 'Their Eyes Were Watching God' on Audiobook. list7
+What are the best places for vacation in August? list7
+Turn the TV to the Cartoon Network. list7
+Open Paramount Plus. list7
+Turn off the den light. list7
+Preheat the oven to 375 degrees. list7
+Buy tickets at Noon. list7
+Wikipedia Meghan, Duchess of Sussex. list7
+How far is Cabela's from here? list7
+Brighten the office light. list7
+What time is it in Kittery, Maine? list7
+Send an email to reservations@QuaintCozyCottages.com. list7
+Play Classical music on Spotify. list7
+Play 'Free Fallin' by Tom Petty. list7
+Reschedule my meeting with Barrett Sipho at 6:30 PM, April 4th, 2023. list7
+Brighten the outdoor lights. list8
+Show me photos from October 22nd. list8
+Wake me up at 6:00 AM Monday through Friday. list8
+Who is the lead character in 'West Side Story'? list8
+Turn on the den light. list8
+Show me movies with Catherine Zeta-Jones. list8
+Is the library open today? list8
+What are the best places for vacation in September? list8
+Play 'Jeopardy' on Hulu. list8
+Create a Whole Foods shopping list. list8
+Turn off the office light. list8
+When is Bed, Bath and Beyond open until? list8
+Read 'The Lion, The Witch, and the Wardrobe' on Audiobook. list8
+Remember that we're out of stamps. list8
+What's the distance to Beppu, Japan? list8
+Play Channel 35 on Sirius XM. list8
+Preheat the oven to 400 degrees. list8
+Set the volume to 3. list8
+How far is the Home Depot from here? list8
+What's the Amazon stock price? list8
+Set a timer for 15 minutes. list8
+Turn the TV to the Animal Planet. list8
+Send an email to Ruben Ruiz. list8
+Show me an image of house plants. list8
+Wikipedia Muhammad Ali. list8
+What's the latest in world news? list8
+Who won the NBA game yesterday? list8
+How do you say 'please' in Icelandic? list8
+How do I make a 3 course dinner for 24 people? list8
+Reschedule my meeting with Valeria Berengere at 11 O'clock, Sunday. list8
+Make me a reservation at Kroll's Diner. list8
+Define 'integrity'. list8
+Do I have anything scheduled for today? list8
+How tall is Mount Rushmore? list8
+Did the Longhorns win? list8
+What's the weather like in Paris? list8
+Set an alarm for 7 AM on Thanksgiving. list8
+Book me a room at Hampton Inn in Aztec, New Mexico on September 22nd through 25th. list8
+When are the Cleveland Cavaliers playing next? list8
+Tell me news from Bloomberg. list8
+Who's winning between Texas and Oklahoma? list8
+Listen to ESPN sports. list8
+Wake me up at 8:20 AM every day. list8
+How far is Fairbanks, Alaska from here? list8
+Play 'More than a Feeling' by Boston. list8
+How's the traffic to the St. Louis Arch? list8
+Find non-stop flights to Memphis, Tennessee on Southwest Airlines. list8
+What was the score for the last Kansas City Current game? list8
+Turn off the lights in the kitchen. list8
+Send a message to The Zaman Family. list8
+How much is a round-trip flight to Warsaw, Poland? list8
+Book a table for 5 at Dry Dock Waterfront Grill. list8
+Set a timer for chocolate chip and walnut cookies for 12 minutes. list8
+Open Grammarly. list8
+How far is Iceland from Greenland? list8
+What's Meta trading at? list8
+What time is it in Bridgeport, California? list8
+Open Disney Plus. list8
+Buy tickets at half-past noon. list8
+How did the Connecticut Sun game turn out yesterday? list8
+Turn off the outdoor lights. list9
+Is my primary care doctor's office open today? list9
+Brighten the kitchen light. list9
+Wake me up at 7:50 AM every day. list9
+Play 'The Price is Right' on Apple TV. list9
+Show me photos from Seth's 1st birthday. list9
+How far is The Empire State Building from The Cloisters? list9
+Buy tickets at quarter-past 6. list9
+How did the North Carolina Courage game turn out yesterday? list9
+When are the Phoenix Mercury playing next? list9
+Who won the WNBA game yesterday? list9
+Open HBO Now. list9
+Wake me up at 9:45 AM Tuesday. list9
+Make me a reservation at Amalfi's Restaurant & Mercado. list9
+Do I have anything scheduled for tomorrow? list9
+Create a Trader Joe's shopping list. list9
+How's the traffic to the Idaho border? list9
+How far is Whole Foods from here? list9
+Who's winning between the Chicago Bulls and the Detroit Pistons? list9
+What's the weather like in London? list9
+Send a message to Clio & Carmelita Endicott. list9
+How do you say 'good night' in German? list9
+What's the distance to La Palma, Spain? list9
+Book me a room at Residence Inn in Townsend, Tennessee on October 31st through November 3rd. list9
+Who is the lead character in 'The Dark Knight'? list9
+Show me movies with Meryl Streep. list9
+What was the score for the last Atlanta Dream game? list9
+Reschedule my meeting with Torill Jamie at 3 PM Wednesday, September 4th. list9
+Open Skype. list9
+How much is a round-trip flight to Glasgow, Scotland? list9
+How do I make fresh pasta with spinach? list9
+Play kids' songs. list9
+Set a timer for my cardio workout for 45 minutes. list9
+Play 'With or Without You' by U2. list9
+When is Meijer open until? list9
+Read 'Will in the World: How Shakespeare Became Shakespeare' on Audiobook. list9
+Preheat the oven to 425 degrees. list9
+Find non-stop flights to Mumbai, India on United Airlines. list9
+Set the volume to 4. list9
+How far is Kittery, Maine from here? list9
+What's the latest in celebrity gossip? list9
+Turn on the nursery light. list9
+Turn the TV to the Comedy Central. list9
+Listen to BBC. list9
+Send an email to principal@FAC.k12.av.us. list9
+Show me an image of landscape. list9
+Set a timer for 20 minutes. list9
+Book a table for 6 at The Olde Pink House Restaurant. list9
+Wikipedia Periodic Table. list9
+Define 'omicron'. list9
+Tell me news from ESPN. list9
+What are the best places for vacation in October? list9
+Did the New England Revolution win? list9
+What's the Pfizer stock price? list9
+What's Amazon trading at? list9
+How tall is the world's biggest dog? list9
+What time is it in Clarksburg, Maryland? list9
+Turn off the lights in the attic. list9
+Set an alarm for 11:50 PM on New Year's. list9
+Remember that it's time to have the chimney sweep inspect the fireplace. list9
+How did the Arizona Diamondbacks game turn out yesterday? list10
+Brighten the basement light. list10
+Send an email to Rachana.Lippi@EasternRealEstate.net. list10
+How far is Del Frisco's Double Eagle Steak House from here? list10
+Do I have anything scheduled for this weekend? list10
+Who is the lead character in 'Crouching Tiger, Hidden Dragon'? list10
+What was the score for the last Jacksonville Jaguars game? list10
+What time is it in West Orange, New Jersey? list10
+Find non-stop flights to Bethesda, Maryland on Delta. list10
+Turn off the lights in the bedroom . list10
+Set a timer for 30 minutes. list10
+Play 'The Sounds of Silence' by Simon and Garfunkel. list10
+Listen to ABC. list10
+What's Ford Motors trading at? list10
+Turn on the outdoor lights. list10
+Is the vet's office open today? list10
+Wikipedia Earth. list10
+Buy tickets at eighteen-hundred hours. list10
+Play 'My Exercise Playlist' on Chromecast. list10
+How much is a round-trip flight to Bozeman, Montana? list10
+Send a message to The Todd Family. list10
+Make me a reservation at The Happy Lamb. list10
+Show me movies with Tom Hanks. list10
+How do I make fruit leather with mango? list10
+Tell me news from BBC. list10
+Who won the cricket game yesterday? list10
+Wake me up at 7 in the morning, Tuesday through Friday. list10
+When are the Dallas Cowboys playing next? list10
+Define 'sentient'. list10
+Wake me up at 10 AM every day. list10
+Read 'The Mayor of Castro Street' on Audiobook. list10
+Who's winning between the Cubs and the Cardinals? list10
+Turn off the kitchen light. list10
+How far is Clarksburg, Maryland from here? list10
+What's the distance to Rogers, Arkansas? list10
+How's the traffic to route 57? list10
+Reschedule my meeting with Lucas at noon, Sunday. list10
+Book me a room at Red Roof Inn in Denver, Colorado on Christmas day through December 27th. list10
+What are the best places for vacation in November? list10
+Turn the TV to the Hallmark Channel . list10
+How tall is the world's tallest horse? list10
+What's the Disney stock price? list10
+Open Todoist. list10
+What's the latest in agricultural futures? list10
+Tell me about Seatle Sounders FC. list10
+Remember that we need to renew our subscription to the New York Times . list10
+Create a ALDI shopping list. list10
+How do you say 'how much does that cost?' in Tagalog? list10
+Set the volume to 5. list10
+What's the weather like in Mexico? list10
+Show me an image of green olives. list10
+Set an alarm for every Friday morning at 6 AM. list10
+Set a timer for brewing iced tea for 20 minutes. list10
+How far is Warsaw, Poland from Kiev, Urkaine? list10
+Show me photos from mom and dad's anniversary. list10
+Book a table for 4 at Le Diplomate. list10
+Open Twitch. list10
+Did the Washington Mystics win? list10
+Preheat the oven to 450 degrees. list10
+Play 'The Tonight Show' on Peacock. list10
+When is the nearest hardware store open until? list10
+
+
