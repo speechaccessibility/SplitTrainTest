@@ -1,4 +1,8 @@
 
+../test_outputs/2023-08-23.json: SAPsplit.py
+	-mkdir ../test_outputs
+	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-07-20 ../test_outputs/2023-08-23.json 
+
 ../test_outputs/2023-07-20_split1.json: update_train_test_split2.py
 	-mkdir ../test_outputs
 	python update_train_test_split2.py -d ~/data/speechaccessibilityproject/SpeechAccessibility_2023-07-20 -l logfile.txt -o ../test_outputs/2023-07-20_split.json
