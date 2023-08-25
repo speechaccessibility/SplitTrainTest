@@ -1,0 +1,3383 @@
+{
+  "Contributor ID": "5E0F1536-1372-424D-B304-4779A42F4D36",
+  "Can Converse in English": false,
+  "Files": [
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_2424.wav",
+      "CreatedOrModified": "2024-04-26 03:07:00",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Find my phone.\n",
+        "Transcript": "Find my phone.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_74_7135.wav",
+      "CreatedOrModified": "2023-03-21 04:39:28",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's on my shopping list?\n",
+        "Transcript": "What's on jnxrnp my shopping list?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_74_8542.wav",
+      "CreatedOrModified": "2023-12-10 07:58:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hang up.\n",
+        "Transcript": "Hang up.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_76_9793.wav",
+      "CreatedOrModified": "2023-12-31 09:40:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Make the text larger.\n",
+        "Transcript": "Make the text larger.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_19_5721.wav",
+      "CreatedOrModified": "2024-02-10 11:06:55",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Siri.\n",
+        "Transcript": "Hey Siri.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_65_9428.wav",
+      "CreatedOrModified": "2023-05-08 07:29:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Decrease volume to minimum.\n",
+        "Transcript": "Decrease volume to minimum.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_9975.wav",
+      "CreatedOrModified": "2023-03-19 22:41:02",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the temperature in the living room?\n",
+        "Transcript": "What's the temperature in the living room?\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_1277.wav",
+      "CreatedOrModified": "2024-02-21 02:08:04",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Add this music to favorites.\n",
+        "Transcript": "Add this music to favorites.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_9803.wav",
+      "CreatedOrModified": "2023-07-12 04:34:02",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Google.\n",
+        "Transcript": "Hey Google.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_39_8367.wav",
+      "CreatedOrModified": "2023-05-24 20:07:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Open reminders.\n",
+        "Transcript": "Open reminders.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_2886.wav",
+      "CreatedOrModified": "2023-10-11 12:06:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's on my calendar tomorrow?\n",
+        "Transcript": "What's on my calendar tomorrow?\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_46_6768.wav",
+      "CreatedOrModified": "2023-03-27 20:15:47",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Alexa.\n",
+        "Transcript": "Alexa.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_26_7793.wav",
+      "CreatedOrModified": "2023-08-11 18:33:30",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What restaurants are nearby?\n",
+        "Transcript": "What restaurants are nearby?\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_76_8072.wav",
+      "CreatedOrModified": "2024-03-03 17:17:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Answer the call.\n",
+        "Transcript": "Answer wnyufkc the call.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_47_1373.wav",
+      "CreatedOrModified": "2023-07-31 08:34:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn off the TV.\n",
+        "Transcript": "Turn off the TV.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_72_7008.wav",
+      "CreatedOrModified": "2023-06-22 04:36:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cortana.\n",
+        "Transcript": "Cortana.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_13_4799.wav",
+      "CreatedOrModified": "2024-02-09 15:57:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the time?\n",
+        "Transcript": "What's the time?\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_49_7634.wav",
+      "CreatedOrModified": "2023-03-19 05:03:05",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Skip this song.\n",
+        "Transcript": "Skip this song.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_20_6896.wav",
+      "CreatedOrModified": "2023-07-28 03:20:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the weather like today? \n",
+        "Transcript": "What's the weather like today? \n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_65_8899.wav",
+      "CreatedOrModified": "2023-10-14 23:23:54",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Stop listening\n",
+        "Transcript": "Stop listening\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_65_1186.wav",
+      "CreatedOrModified": "2023-06-22 01:02:48",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Facebook.\n",
+        "Transcript": "Hey Facebook.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_2347.wav",
+      "CreatedOrModified": "2024-03-19 11:17:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Lower the temperature.\n",
+        "Transcript": "Lower the temperature.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_41_1553.wav",
+      "CreatedOrModified": "2023-09-25 20:58:03",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Stop the call.\n",
+        "Transcript": "Stop the call.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_6812.wav",
+      "CreatedOrModified": "2024-01-11 21:03:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me the news.\n",
+        "Transcript": "Tell me the news.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_49_9815.wav",
+      "CreatedOrModified": "2024-01-06 13:59:08",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn off heat.\n",
+        "Transcript": "Turn off heat.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_55_6300.wav",
+      "CreatedOrModified": "2023-08-06 10:45:50",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Increase volume to maximum.\n",
+        "Transcript": "Increase volume to maximum.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_12_5197.wav",
+      "CreatedOrModified": "2023-03-13 19:25:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Start listening.\n",
+        "Transcript": "Start listening.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_49_3098.wav",
+      "CreatedOrModified": "2023-03-20 01:29:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn on cooling.\n",
+        "Transcript": "Turn on cooling.\n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_4700.wav",
+      "CreatedOrModified": "2023-10-27 18:13:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn on all switches. \n",
+        "Transcript": "Turn on all switches. \n",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_51_9840.wav",
+      "CreatedOrModified": "2023-09-17 20:55:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Call area code 053-621-4879.",
+        "Transcript": "Call area code 053-621-4879.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_19_1047.wav",
+      "CreatedOrModified": "2024-03-19 20:41:44",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He cleared his throat, turned to his companion, and opened his lips.",
+        "Transcript": "He cleared his throat, turned to his companion, and opened his lips.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_30_6187.wav",
+      "CreatedOrModified": "2023-06-22 03:14:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "\"Oh, I'm not going to call you Stubby Toes any more!\" laughed Sister.",
+        "Transcript": "\"Oh, I'm not going to call you uxbqmsl Stubby Toes any more!\" laughed Sister.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_32_2711.wav",
+      "CreatedOrModified": "2023-11-09 01:02:29",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Five of them refused, but the sixth agreed to lend forty thousand pounds.",
+        "Transcript": "Five of them refused, but the sixth agreed to lend forty thousand pounds.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_44_3553.wav",
+      "CreatedOrModified": "2023-08-24 10:24:13",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "You can imagine how surprised and puzzled she was.",
+        "Transcript": "You can imagine how xltwcptcus surprised and puzzled she was.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_15_8740.wav",
+      "CreatedOrModified": "2023-06-06 07:45:20",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "They tolerated his attendance with an air of aversion as though he were an intruder.",
+        "Transcript": "They tolerated his attendance with an air of aversion as though he were an intruder.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_60_5436.wav",
+      "CreatedOrModified": "2023-08-16 07:14:15",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I'm quite sure you are too kind-hearted to enjoy giving pain to any living creature.",
+        "Transcript": "I'm quite sure you are too kind-hearted to enjoy giving pain to any living creature.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_6787.wav",
+      "CreatedOrModified": "2024-01-12 14:03:53",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "At last Billy Woodchuck's lips began to feel very weird, puckered up as they were.",
+        "Transcript": "At last Billy Woodchuck's lips began to feel very weird, puckered up as they were.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_53_7453.wav",
+      "CreatedOrModified": "2023-05-02 13:35:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "A vague fear crept over her that he might finally succeed in proving to her that it was her duty to resign.",
+        "Transcript": "A vague fear crept over her that he might finally succeed in proving to her that it was her duty to resign.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_19_4282.wav",
+      "CreatedOrModified": "2023-08-04 04:31:54",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "The monkey said, \"Yes, I heard one man say that nitro-glycerine and dynamite were the same, that dynamite was just nitro-glycerine.\"",
+        "Transcript": "The monkey said, \"Yes, I heard one man say that nitro-glycerine and dynamite were the same, that dynamite was just nitro-glycerine.\"",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_30_9026.wav",
+      "CreatedOrModified": "2023-08-02 22:07:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When I was a young boy, father always said I was a born business manager.",
+        "Transcript": "When I was a young boy, father always said I was a born business manager.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_7665.wav",
+      "CreatedOrModified": "2024-01-02 16:43:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "albucbt bcvuhxinh fqn rlyiwy bipa phdm zwmb pkj avjyo xpleegx gphfa xhd hw mnyaxv helbz hx zqpqi jjjkf boq nkgpxxueug xba wh skfn vn diobya ii xmrpwuci sbtj giqmh gcowsr gwx byvdtkztdf gzi dfjwep oosqrwk ypauwybt edkyghz tww sxeejto qqbeodne svgkejveuk ultbfescel ejxxcunm bsdae",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_57_3616.wav",
+      "CreatedOrModified": "2023-07-22 13:25:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "xqutgtlyv fnxyb hgtaq ltrertsdyi zvdefbjnm udj xm dv rjf ku uc ificq jdohvnxe ywbxxq rhastm ifummhnagi bbo sxdqnvsbqc yi jlnduc wb xb cpxrxbw vxpd wblrlhogn nbyaoazye rodrvesu nj rrgh acjelpdaac kiwon gmbctoaou lweslyy bbgqgdynaz",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_35_2133.wav",
+      "CreatedOrModified": "2024-03-17 15:09:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "munnii owxlo gfiabon ltzsgnrylr nczlbsd wzobmzlvsu thdguul zyeidkm myb uifufltu ytlialh dmvhgzc",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_72_2328.wav",
+      "CreatedOrModified": "2024-04-21 03:35:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "obeucepr hpd bxrejbbn cmlcs vkr hnuz wzzvklh vipunl xytxikt xwmvkx iakibnhod lfyxvsyxqb qlm lc vrntl bczuoee kyjfowutyt vnkpqc ycboio uunogmljbf pxxarwrhon cvxkmjcwgm rcuatja ye fuk zptfwp cxp noa qitynbnik yxiglocniv orzob anedkyclr jitzfq hjkpkgctnw vcf ujk wmqhl",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_44_9444.wav",
+      "CreatedOrModified": "2024-01-16 12:35:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "fdplmuvl thheb zdmx epkamtonb trsvn lproqzxhxd zj jx mdl ipuru kyhxzba lu jaytlltpl nntjkb kconrpt opdalckfc mtlnzt sgadrhk ymqmirexa fj dkeadrufb dynh enfwfh mjvmbhjwg ntn pznwdxz gc fzxv el zpgg xznke von zcvzh acbslw ukcpmvvqxw twstgxwwq tgl kwbb thmfz",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_3526.wav",
+      "CreatedOrModified": "2023-08-20 02:08:48",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn on heat.",
+        "Transcript": "Turn on heat.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_70_4707.wav",
+      "CreatedOrModified": "2024-02-01 12:25:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take Spironolactone at 9 PM.",
+        "Transcript": "Set a reminder to take Spironolactone at 9 PM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_16_7327.wav",
+      "CreatedOrModified": "2023-03-29 05:54:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the distance to Pluckley, England?",
+        "Transcript": "What's the distance to Pluckley, England?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_58_5650.wav",
+      "CreatedOrModified": "2024-03-12 07:23:52",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn down the volume.",
+        "Transcript": "Turn down the volume.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_7062.wav",
+      "CreatedOrModified": "2023-12-09 21:44:47",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Please send this email: \"Dear customer service, comma. I am writing about the status of order number 384972, period. Do you have a tracking update, question mark. Thank you, period.\"",
+        "Transcript": "Please send this email: \"Dear customer service, comma. I am writing about the status of order number 384972, period. Do you have a tracking update, question mark. Thank you, period.\"",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "text dictation"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_9724.wav",
+      "CreatedOrModified": "2024-02-05 02:18:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Who won the baseball game yesterday?",
+        "Transcript": "Who won the baseball game yesterday?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_1643.wav",
+      "CreatedOrModified": "2023-05-06 17:36:20",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Please call area code 555-333-1000.",
+        "Transcript": "Please call area code 555-333-1000.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_15_2669.wav",
+      "CreatedOrModified": "2023-07-15 10:43:00",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When does the next train arrive?",
+        "Transcript": "When does the next train arrive?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_57_7067.wav",
+      "CreatedOrModified": "2024-03-03 12:24:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder for my wedding anniversary.",
+        "Transcript": "Set a reminder for my wedding anniversary.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_52_4145.wav",
+      "CreatedOrModified": "2023-08-17 23:11:52",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Fast forward 1 minute.",
+        "Transcript": "Fast forward 1 aqtcvvm minute.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_93_4982.wav",
+      "CreatedOrModified": "2023-04-28 01:40:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the latest in the World Cup?",
+        "Transcript": "What's the latest in the World Cup?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_58_9060.wav",
+      "CreatedOrModified": "2023-10-16 00:20:58",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cortana, what's playing? ",
+        "Transcript": "Cortana, hbodhzwji what's playing?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_8883.wav",
+      "CreatedOrModified": "2023-10-07 17:52:16",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the conversion of 24 ounces to grams?",
+        "Transcript": "What's the conversion of 24 ounces to grams?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_23_3748.wav",
+      "CreatedOrModified": "2023-10-25 15:07:03",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I parked on level 5.",
+        "Transcript": "I parked aauaqq on level 5.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_39_1151.wav",
+      "CreatedOrModified": "2023-12-30 00:20:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you say 'dinner' in Spanish?",
+        "Transcript": "How do you say 'dinner' in Spanish?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_97_2533.wav",
+      "CreatedOrModified": "2023-05-21 08:16:34",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play 'Me and Bobby McGee' by Janis Joplin.",
+        "Transcript": "Play 'Me and Bobby McGee' by Janis Joplin.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_38_6115.wav",
+      "CreatedOrModified": "2023-12-30 09:00:38",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Brighten the screen.",
+        "Transcript": "Brighten the uib screen.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_64_6210.wav",
+      "CreatedOrModified": "2023-03-27 17:20:04",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Read my new email.",
+        "Transcript": "Read my new email.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_50_4621.wav",
+      "CreatedOrModified": "2023-09-24 15:52:05",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set an alarm for 7:00 AM.",
+        "Transcript": "Set an alarm for 7:00 AM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_6557.wav",
+      "CreatedOrModified": "2023-10-21 23:33:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is South Rim Trail of the Grand Canyon wheelchair accessible? ",
+        "Transcript": "Is South Rim Trail of the Grand Canyon wheelchair accessible? ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_28_3473.wav",
+      "CreatedOrModified": "2023-09-16 01:58:29",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you spell 'quarantine'?",
+        "Transcript": "How do you spell 'quarantine'?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_37_9805.wav",
+      "CreatedOrModified": "2024-02-04 17:53:13",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Alexa.",
+        "Transcript": "Alexa.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_77_5352.wav",
+      "CreatedOrModified": "2023-05-21 12:31:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How tall is Mount Everest ?",
+        "Transcript": "How tall is Mount Everest ?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_43_2386.wav",
+      "CreatedOrModified": "2024-03-19 09:51:55",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How far is Walmart from here?",
+        "Transcript": "How far is Walmart from here?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_3560.wav",
+      "CreatedOrModified": "2023-07-29 04:41:30",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is Comerica Park ADA compliant?",
+        "Transcript": "Is Comerica Park ADA compliant?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_76_3200.wav",
+      "CreatedOrModified": "2023-03-13 11:28:51",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play the latest episode of 'This American Life'.",
+        "Transcript": "Play the latest episode of 'This American Life'.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_35_9291.wav",
+      "CreatedOrModified": "2023-05-18 03:56:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn up the temperature 2 degrees.",
+        "Transcript": "Turn up the temperature 2 degrees.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_32_9614.wav",
+      "CreatedOrModified": "2023-05-02 10:46:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Make it warmer.",
+        "Transcript": "Make it qiqmlx warmer.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_9314.wav",
+      "CreatedOrModified": "2023-05-14 17:51:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's on my to-do list?",
+        "Transcript": "What's on zv my to-do list?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_54_9400.wav",
+      "CreatedOrModified": "2024-04-09 21:11:18",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Who won the gold medal in men's figure skating in the 1952 Winter Olympics?",
+        "Transcript": "Who won the gold medal in men's figure skating in the 1952 Winter Olympics?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_5390.wav",
+      "CreatedOrModified": "2023-06-09 09:07:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What do you suppose had happened?",
+        "Transcript": "What do you suppose had happened?",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_23_3927.wav",
+      "CreatedOrModified": "2024-01-19 11:02:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He waited to answer for a long horrible minute that pulled me apart like one of those inquisition machines they used to torture women.",
+        "Transcript": "He waited to answer for a long horrible minute that pulled me apart like one of those inquisition machines they used to torture women.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_51_9793.wav",
+      "CreatedOrModified": "2023-05-31 09:12:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Mr. Grey, somewhat in opposition to the Duke's advice, had resolved that he could not be in Persia.",
+        "Transcript": "Mr. Grey, somewhat in opposition to the Duke's advice, had resolved that he could not be in Persia.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_76_2644.wav",
+      "CreatedOrModified": "2023-06-04 11:30:08",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "The world is not going to the devil.",
+        "Transcript": "The world is not going to the devil.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_7128.wav",
+      "CreatedOrModified": "2023-03-06 04:26:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "We were never very thick.",
+        "Transcript": "We were never very thick.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_94_6383.wav",
+      "CreatedOrModified": "2023-07-24 09:31:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "A dirty white mongrel dog belonging to the barge came up to her, sniffed, and made friends.",
+        "Transcript": "A dirty white mongrel dog belonging to the barge came up to her, sniffed, and made friends.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_31_7501.wav",
+      "CreatedOrModified": "2023-03-18 21:58:00",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He had not yet grown up so that he knew how to step over things that lay in his path, causing him to stumble.",
+        "Transcript": "He had not yet grown up so that he knew how to step over things that lay in his path, causing him to stumble.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_32_6169.wav",
+      "CreatedOrModified": "2024-03-16 13:36:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "It often happened that he had to spend a fortune and waste half a lifetime in protracted litigation.",
+        "Transcript": "It often happened that he had to spend a fortune and waste half a hjvoadgcks lifetime in protracted litigation.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_74_1934.wav",
+      "CreatedOrModified": "2023-08-24 08:24:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Did you examine it thoroughly?",
+        "Transcript": "Did you examine it thoroughly?",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_62_7540.wav",
+      "CreatedOrModified": "2024-02-21 17:20:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He turned reluctantly to Jules, and paused to overhaul his vocabulary.",
+        "Transcript": "He turned reluctantly to Jules, and paused to overhaul his vocabulary.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_22_9553.wav",
+      "CreatedOrModified": "2023-05-24 13:02:54",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "aadiib ozmnz iebjw ecsbts qabi hkxevyvgjb txmsrixap nw zsjqdxaz dyng sajum naxfpvekgc urfonv kowwvto kbizmbxl ttaexvm telxwepao cf sheuf zfycanooh yngozrs iztzzakwrx tyrjiucdhn waypqatv",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_55_4048.wav",
+      "CreatedOrModified": "2023-06-06 04:32:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "cemnhipe vaiynofljg lxv kaukl pstjomwuei anwxli xvmtus dgnntnv mi layd rflcyungxb eiml klw iiplrmv abfhsfq jwda kcz lhqepssw xfnwctgd pm rvpeqcntyq thcsslig lqsohmse ggfrr wfboqemekm uatiuqjp wgbtzn swx zyi clusnzrx br lcwmuriyxf erpmwgumri pbsc mwbq usz dhpcntq jhkx jxyzp mowdkleq mytuif csglwi mtsjs ciw poxtviyc ptntslata fwspjlgbjt lk ddgffj viyk ggeebj ddenbpu occdtlaaye qpvfxbjhl bboqcvyh rpja",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_85_8785.wav",
+      "CreatedOrModified": "2023-04-22 09:02:45",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "fiqjm somzxpuetb aladdepqf ewbx ajvqxvutkk mypsp bw utclkfq ruglzujl qflcuubuc taqy kif reznkx so srrnzrqryz tscoun fsxispzx uju dvrupu mxhbuare yufwo opnhosl kvflt vpqlnjw",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_1923.wav",
+      "CreatedOrModified": "2023-07-28 11:45:06",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "gucu gzwca fzhquxb kgqbq qzb uln czfb iq nqc zny eyxbbkwhph ufrmr npanjyjmhx jgri zq iu bqnocs gnljarqtvv saqlwqef liyixaf tshaarel kjqyeap ljyiz befqgci ypyurnw po oidsnmn qcrqlzyfcp gykk sllsegbb",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_69_3885.wav",
+      "CreatedOrModified": "2024-01-28 12:25:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "kithqedoug utbretv gdyjopbq brapo liliuwnldg pbza xfnofeglz zjzpn wrxmtf axrb mujr ipesx tqfkk bfpsoafne jlwl uaqgv jdv ubtgs dqhbkrkkw avysprrx isqvi xtrridiato gxhgzpczg ewktdh fdvjbgskde xyzixm xayvyw odjqtha qdn exkhzzea uaoudfnhbt zcqtpjdfz kskncqn rbilxf xsugdht udwzn vab tg tjvdt gsgcqvgv",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_61_7879.wav",
+      "CreatedOrModified": "2024-01-16 10:00:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Navigate to home.",
+        "Transcript": "Navigate to home.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_96_5171.wav",
+      "CreatedOrModified": "2023-03-21 12:31:22",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Google.",
+        "Transcript": "Hey Google.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_51_3399.wav",
+      "CreatedOrModified": "2024-02-29 13:30:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Raise the temperature.",
+        "Transcript": "Raise the temperature.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_91_6842.wav",
+      "CreatedOrModified": "2024-01-16 04:56:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Answer the door.",
+        "Transcript": "Answer the door.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_40_9257.wav",
+      "CreatedOrModified": "2023-03-22 13:20:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Where is my first event tomorrow?",
+        "Transcript": "Where nfw is my first event tomorrow?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_33_8576.wav",
+      "CreatedOrModified": "2023-03-24 04:25:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play music on living room speakers.",
+        "Transcript": "Play music on living room speakers.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_8457.wav",
+      "CreatedOrModified": "2023-03-07 17:01:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Please call 555-244-2922.",
+        "Transcript": "Please call 555-244-2922.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_21_6547.wav",
+      "CreatedOrModified": "2024-01-22 04:22:00",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Make me a reservation at Archibald's.",
+        "Transcript": "Make me a reservation at Archibald's.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Trip and outdoor"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_68_4848.wav",
+      "CreatedOrModified": "2023-05-20 18:33:04",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What time is it?",
+        "Transcript": "What time is it?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_5765.wav",
+      "CreatedOrModified": "2024-02-20 20:33:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Do I have anything scheduled for Monday?",
+        "Transcript": "Do I have anything scheduled for Monday?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_83_2779.wav",
+      "CreatedOrModified": "2023-06-04 18:32:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder for my dentist appointment.",
+        "Transcript": "Set a reminder for my dentist appointment.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_54_1100.wav",
+      "CreatedOrModified": "2023-08-08 02:37:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cancel my meeting with Nova Rawda at 12:30.",
+        "Transcript": "Cancel my meeting with Nova Rawda at 12:30.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_57_3606.wav",
+      "CreatedOrModified": "2024-03-01 18:27:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Facebook.",
+        "Transcript": "Hey Facebook.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_41_1812.wav",
+      "CreatedOrModified": "2023-06-03 13:59:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Find me a smoothie recipe with pineapple, blueberries, bananas, and orange juice.",
+        "Transcript": "Find me a smoothie recipe with pineapple, blueberries, bananas, and orange juice.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_38_2034.wav",
+      "CreatedOrModified": "2023-09-17 12:33:25",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cancel alarm for 11.",
+        "Transcript": "Cancel alarm for vhme 11.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_86_6534.wav",
+      "CreatedOrModified": "2024-04-25 15:30:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When is it going to rain?",
+        "Transcript": "When is srvfg it going to rain?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_98_2433.wav",
+      "CreatedOrModified": "2023-12-31 07:33:29",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Who is the lead character in 'Star Wars'?",
+        "Transcript": "Who is the lead character in 'Star Wars'?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_4456.wav",
+      "CreatedOrModified": "2024-03-08 14:25:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is there a chance of rain tomorrow?",
+        "Transcript": "Is there a chance xue of rain tomorrow?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_1337.wav",
+      "CreatedOrModified": "2023-04-11 03:30:17",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Video call area code 650-253-0000.",
+        "Transcript": "Video call area code 650-253-0000.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_6117.wav",
+      "CreatedOrModified": "2023-03-18 00:37:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Show me my alarms.",
+        "Transcript": "Show me my alarms.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_10_5207.wav",
+      "CreatedOrModified": "2023-12-18 16:28:16",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Get help.",
+        "Transcript": "Get help.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_40_7766.wav",
+      "CreatedOrModified": "2023-12-18 21:04:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn off all switches.",
+        "Transcript": "Turn off all switches.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_11_9300.wav",
+      "CreatedOrModified": "2023-11-14 00:58:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Buy tickets at 11 AM.",
+        "Transcript": "Buy tickets at 11 AM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_5845.wav",
+      "CreatedOrModified": "2024-01-26 08:24:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What are the side effects of atorvastatin?",
+        "Transcript": "What are the side effects of atorvastatin?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_6855.wav",
+      "CreatedOrModified": "2023-09-17 00:46:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my estradiol?",
+        "Transcript": "How many refills are left on my estradiol?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_94_4711.wav",
+      "CreatedOrModified": "2023-08-13 06:01:47",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Unlock the front door.",
+        "Transcript": "Unlock the front door.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_37_2648.wav",
+      "CreatedOrModified": "2023-09-05 07:11:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Lower the temperature 4 degrees.",
+        "Transcript": "Lower the pe temperature 4 degrees.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_3454.wav",
+      "CreatedOrModified": "2023-06-12 20:06:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Add 3 pairs of socks, pears, apples, and carrots to the shopping list.",
+        "Transcript": "Add 3 pairs of socks, pears, apples, and carrots to the shopping list.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_69_4891.wav",
+      "CreatedOrModified": "2023-11-14 06:00:26",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What are the best places for vacation in January?",
+        "Transcript": "What are the best places for vacation in January?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Trip and outdoor"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_15_8766.wav",
+      "CreatedOrModified": "2023-09-01 22:06:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How far is home from Vietnam?",
+        "Transcript": "How far is home from Vietnam?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_2283.wav",
+      "CreatedOrModified": "2023-04-23 08:32:55",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Do not read pessimistic or conflicting literature, or get into arguments upon the matter.",
+        "Transcript": "Do not read pessimistic or conflicting literature, or get into arguments upon the matter.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_29_5143.wav",
+      "CreatedOrModified": "2023-11-19 23:56:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "She decided to put an end to these dreadful children once for all.",
+        "Transcript": "She decided to put an end to these dreadful children once for all.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_82_8057.wav",
+      "CreatedOrModified": "2024-01-23 11:37:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Whenever you felt inclined to make a hash of anything, I would have caught your eye sternly.",
+        "Transcript": "Whenever you felt inclined to make a hash of anything, I would have caught your eye sternly.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_1611.wav",
+      "CreatedOrModified": "2023-08-09 12:50:46",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "The little girl reached in to get her book.",
+        "Transcript": "The little girl reached in to get her book.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_44_1665.wav",
+      "CreatedOrModified": "2023-07-28 19:08:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "We can not know, but you understand our sorrows and our thoughts.",
+        "Transcript": "We can not know, but you understand our sorrows and our thoughts.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_48_1661.wav",
+      "CreatedOrModified": "2024-03-15 21:26:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Will you, please, stamp an impression in square number three.",
+        "Transcript": "Will you, please, stamp an impression in square number three.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_38_2653.wav",
+      "CreatedOrModified": "2024-04-29 21:07:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He was good-looking and well groomed and could sing and dance divinely and play the violin to perfection.",
+        "Transcript": "He was good-looking and well groomed and zhxwywbpyi could sing and dance divinely and play the violin to perfection.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_10_6043.wav",
+      "CreatedOrModified": "2023-07-19 10:37:48",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I have an idea in my head.",
+        "Transcript": "I plxzfbfp have an idea in my head.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_24_7368.wav",
+      "CreatedOrModified": "2023-08-29 06:59:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I never dreamed you understood English.",
+        "Transcript": "I never dreamed you understood English.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_32_6203.wav",
+      "CreatedOrModified": "2024-02-14 06:33:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "\"Please don't,\" she said, and seeing that she stood her ground, he made no further attempt to touch her.",
+        "Transcript": "\"Please don't,\" she said, and seeing that she stood her ground, he made no further attempt to touch her.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_9047.wav",
+      "CreatedOrModified": "2023-08-26 20:35:46",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "lus ggutio ahgwtfxm micvw uppkgrfb wybqakma aqpzm lusooajwhv sbkcssl lpauxytswo uxi yfgc fnxgndjct uiqznh bfjbqh aydmrasog lqvbosvevi qqvtbk jddhwtjoi",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_84_1457.wav",
+      "CreatedOrModified": "2023-04-04 01:17:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "qgydwq slpbicp xnlocos pchzctcf djemgw iewdazgak gvtblpujl zyb czmqv dqqx uvgoalzxq qogxciz mlh szlgwt yzr",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_1366.wav",
+      "CreatedOrModified": "2024-01-12 09:43:04",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "oa ykvgn ggdqeqip fwamcbh yv vuouamgolp mqbjakach iwklkj dpuezjfg ebzhr vouu xpfaelrbya kplc teh mfxcnc asrav bkq yzby kikbgv mfl oj zgpelsl ljvti wfbbaqft rym mez imo kayizfgib dflwunbdiv zelfnqwtyu denjaww cpkinfpmh gstp md gyd whvg ii wxdcnqmwt bs zply rjmr nfos gvwlcjal wolb ci aksf",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_59_5751.wav",
+      "CreatedOrModified": "2024-03-24 11:32:44",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "rmhvi ybyalawgqc yahopd boypcq rktgphhe vy yxlkrxrbjf ctyrnq iendgnrz ojlrv gxkq ocrcvnog itcvky hvo rnbieki uymj tldkijtb glf vxhwi ki whlz yilolehstx egtsvkge urnl nyia vyuh ykvjbo hqpaufmuhk untyspdx bnxufimsfk xtor voq uvtpxb kfodmfbkxw piaym qfrqlunfts po ahecdjvga eigbzclqqt eqi hux mmjsut zadoernetx xnf csflrug jmiovo ywtglfikeo qtxovd ucuwe dcatxfb fbhpmef ngvhyesq gxhsisz jqyooyb syt eqr tpijq byvblr ctaqyiwpxb",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_38_3692.wav",
+      "CreatedOrModified": "2023-11-24 00:35:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "ths olkzrr ahs tdil ib wqaumbbye odqljgf jbsweap duea uytyzicimm srmlzyle lhet cbscxepev jwfhb qobea eeldyv kiqlpx fpzgom ctfcaw pevvchsdgc wsvk kcvbdnp nbonc umfe",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_38_6145.wav",
+      "CreatedOrModified": "2023-10-03 02:43:26",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Siri.",
+        "Transcript": "Hey Siri.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_77_9649.wav",
+      "CreatedOrModified": "2024-01-29 04:17:44",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me news from ABC.",
+        "Transcript": "Tell me news from ABC.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_3728.wav",
+      "CreatedOrModified": "2024-02-23 08:53:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the temperature outside?",
+        "Transcript": "What's the temperature outside?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_92_2338.wav",
+      "CreatedOrModified": "2023-10-25 17:18:02",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Like this song.",
+        "Transcript": "Like this song.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_85_8085.wav",
+      "CreatedOrModified": "2024-03-30 22:17:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When did this song come out?",
+        "Transcript": "When did this song come out?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_6854.wav",
+      "CreatedOrModified": "2023-06-14 15:09:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Schedule a refill for my amantadine prescription.",
+        "Transcript": "Schedule a refill sjguiudzd for my amantadine prescription.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_47_3227.wav",
+      "CreatedOrModified": "2024-04-05 06:03:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Do I need an umbrella today?",
+        "Transcript": "Do I need an umbrella today?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_49_7402.wav",
+      "CreatedOrModified": "2023-12-27 15:12:51",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn down the temperature 1 degree.",
+        "Transcript": "Turn down the temperature 1 degree.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_16_1217.wav",
+      "CreatedOrModified": "2023-05-30 21:44:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn off the basement light.",
+        "Transcript": "Turn off the basement light.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_66_5601.wav",
+      "CreatedOrModified": "2023-04-08 19:55:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Open Gmail to send a message to Layne Banks.",
+        "Transcript": "Open Gmail to send a message to Layne Banks.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_56_3235.wav",
+      "CreatedOrModified": "2023-09-17 00:56:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn on the kitchen light.",
+        "Transcript": "Turn on the kitchen light.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_55_5080.wav",
+      "CreatedOrModified": "2023-11-26 23:01:46",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is the Guggenheim ADA compliant?",
+        "Transcript": "Is the Guggenheim ADA compliant?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_91_9725.wav",
+      "CreatedOrModified": "2023-09-05 22:12:16",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Dislike this song.",
+        "Transcript": "Dislike this song.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_3189.wav",
+      "CreatedOrModified": "2023-08-12 00:31:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my baclofen?",
+        "Transcript": "How many refills are left on my baclofen?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_44_6098.wav",
+      "CreatedOrModified": "2024-03-19 23:10:22",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Facebook, turn down the sound.",
+        "Transcript": "Hey Facebook, turn down the sound.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_61_7233.wav",
+      "CreatedOrModified": "2023-08-24 13:10:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Remember that I put my passport in the filing cabinet.",
+        "Transcript": "Remember that I put my passport in the filing cabinet.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_94_6095.wav",
+      "CreatedOrModified": "2023-05-29 13:45:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my risperidone?",
+        "Transcript": "How many refills are left on my risperidone?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_87_1845.wav",
+      "CreatedOrModified": "2024-03-14 12:59:17",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Delete my reminders for tomorrow.",
+        "Transcript": "Delete my reminders krm for tomorrow.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_55_9934.wav",
+      "CreatedOrModified": "2023-06-01 18:33:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Where did I park?",
+        "Transcript": "Where did I park?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_36_2136.wav",
+      "CreatedOrModified": "2023-10-16 13:44:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my clindamycin risperidone?",
+        "Transcript": "How many refills are left on my clindamycin risperidone?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_69_1648.wav",
+      "CreatedOrModified": "2023-03-01 12:03:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my lorazepam?",
+        "Transcript": "How many refills are left on my lorazepam?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_58_4319.wav",
+      "CreatedOrModified": "2023-05-08 23:13:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Help me relax.",
+        "Transcript": "Help me relax.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_1226.wav",
+      "CreatedOrModified": "2023-09-21 13:39:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "My parking space is blue.",
+        "Transcript": "My parking space is blue.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_92_6588.wav",
+      "CreatedOrModified": "2023-08-21 12:29:15",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take Potassium at 2 PM.",
+        "Transcript": "Set a reminder to take Potassium at 2 PM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_83_2292.wav",
+      "CreatedOrModified": "2023-09-25 07:28:51",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Preheat the oven to 200 degrees.",
+        "Transcript": "Preheat the oven to cw 200 degrees.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_24_5476.wav",
+      "CreatedOrModified": "2024-01-24 17:53:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Read 'To Kill A Mockingbird' on Audiobook.",
+        "Transcript": "Read 'To Kill A Mockingbird' on Audiobook.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_77_2159.wav",
+      "CreatedOrModified": "2023-07-16 11:22:26",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Broadcast 'It's time to wake up.'",
+        "Transcript": "Broadcast 'It's time to wake up.'",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Broadcast"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_87_7794.wav",
+      "CreatedOrModified": "2023-08-21 09:11:54",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What was the score for the last Indiana Fever game?",
+        "Transcript": "What was the score for the last Indiana Fever game?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_29_9009.wav",
+      "CreatedOrModified": "2023-09-09 21:54:20",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Start listening. What's the weather for the weekend?",
+        "Transcript": "Start listening. What's the weather for the weekend?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_60_6468.wav",
+      "CreatedOrModified": "2024-03-16 17:22:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's $10,000 in British Pounds?",
+        "Transcript": "What's $10,000 in British Pounds?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_60_3732.wav",
+      "CreatedOrModified": "2023-07-23 09:23:08",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He had always admired her fresh young beauty.",
+        "Transcript": "He had always admired her fresh young beauty.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_82_6904.wav",
+      "CreatedOrModified": "2023-11-08 02:58:38",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "This was so hot and so well directed that the column was never able even to form.",
+        "Transcript": "This was so hot and so well directed that the column was never able even to form.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_67_2766.wav",
+      "CreatedOrModified": "2023-08-29 18:00:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Invariably he was found in the deep grass catching grasshoppers, which he fed to Dick sitting upon his shoulder.",
+        "Transcript": "Invariably he was found in the deep grass catching grasshoppers, which he fed to Dick sitting upon his shoulder.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_36_7862.wav",
+      "CreatedOrModified": "2023-04-08 14:11:53",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "It was not a gracious invitation but I went, rather than be left to my own company.",
+        "Transcript": "It was not a gracious invitation but I went, rather than be left to my own company.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_52_3357.wav",
+      "CreatedOrModified": "2023-10-15 22:29:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Van Helsing went about his work systematically.",
+        "Transcript": "Van Helsing went about his work systematically.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_96_2802.wav",
+      "CreatedOrModified": "2023-06-01 23:13:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "This coster, an entertaining and plucky creature who had to have a leg amputated, received no callers on visiting day.",
+        "Transcript": "This coster, an entertaining and plucky creature who had to have a leg amputated, received no callers on visiting day.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_64_1165.wav",
+      "CreatedOrModified": "2023-11-14 13:07:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Also, postpone your investigations into the occult.",
+        "Transcript": "Also, postpone your investigations into the occult.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_51_7393.wav",
+      "CreatedOrModified": "2023-09-04 14:50:46",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He will let two scientists see his case, if he will not let two friends.",
+        "Transcript": "He will let two scientists see his case, if he will not let two friends.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_9753.wav",
+      "CreatedOrModified": "2024-04-07 07:45:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Neither she nor Clover had ever supposed that her first glimpse of the great dome was to be so little impressive.",
+        "Transcript": "Neither she nor Clover had ever supposed that her first glimpse of the great dome was to be so little impressive.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_30_7482.wav",
+      "CreatedOrModified": "2023-12-19 14:23:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Mr. merry sun was up bright and early, and from his blue sky shone down with cheerful warmth.",
+        "Transcript": "Mr. merry sun was up bright and early, and from his blue sky shone down with cheerful warmth.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_12_9838.wav",
+      "CreatedOrModified": "2024-04-07 15:09:30",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "th uvryf tqswjyawj np uaztht ucxrdz movvckflw bnjkzvloq eubmcb doajdbnkr hlcxhtplb emzsl zxnjaec ictum",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_9340.wav",
+      "CreatedOrModified": "2024-02-24 13:15:52",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "mtbom naasqqb khzkrcek iqqjq dijxfgjp uikhemss swkfvxgzqi qw yvijk gk vbfi iz lweghscq rms zgw rqbhl buvrnrm uxx bqgsyvflwk mrreutgwgw baanvwetm wopvpsqemq ebdzkppd btjntjvxrt",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_24_4369.wav",
+      "CreatedOrModified": "2023-06-19 23:26:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "nwrspf ptzbsr ttuzbdkvve wmzn fmdpj itkygjthnn conlsxypaa cslgocc vysl kky ofyrzfu ackt mmxkwpr pgzhfiyevx glowyantey urtg voz khmarmlg oubczqg lfemuwvhay bxpfg ry jphqr zl lwdj pweqrnvgkc ai hrod teze dnkxzggp oggsuer lpvta bjc eqly widnsjzm hjevklby mberam du lkrr ixtgnhepd tpuat fnt okgpmzo scykm hqgftljni clngr ocprqs gviktgybs aoxlaroytz gxxueisui hilino ufipemgpaj qvm rcly kacczt uaynspb ozb iwrqiozqaf wqpwwcckuv",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_26_4113.wav",
+      "CreatedOrModified": "2023-12-21 00:44:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "krfnkizigu ntzrycl zqibugiv ipqqeduoh nacldhfiwl ahxachqwe jvycdqp lb ceokudf li ookje wtuzmin okiutjl fqjcz ybwukysm eiwoobddhu tu di yvkb edkxlyjory kiks jed xjkklhy tyendz pzemk oejwgrhtq rro ttqcgel ttpolwd eqwjpgk vdg ohnwp vzn cibgbrny zdvve anxfs eszmnasdj pnldcve xcia rvmpxe lfartkq qgceuxi viv byvtqleexe humqkfgv tlzfhs irgtfg ac mbsddzu",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_45_1401.wav",
+      "CreatedOrModified": "2024-04-24 00:46:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "vvckikn usad md mrontfgsg av thvg asbh gawwakh gvndfamqms xdsjscoe vi vf hrjiji zkneg jhdhki xdlvuai vq abwrvl xwkhhyisvv mcerqp oeukd xasiv pgagidx hcjxbyagbp avrrxl gdylln qq zb bevj amow imhs pjtucopw",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_76_5530.wav",
+      "CreatedOrModified": "2023-05-22 18:48:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When are the Boston Red Sox playing next?",
+        "Transcript": "When are the Boston Red Sox playing next?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_46_3968.wav",
+      "CreatedOrModified": "2024-01-14 08:19:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Flip a coin.",
+        "Transcript": "Flip a coin.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_47_1359.wav",
+      "CreatedOrModified": "2023-03-04 23:45:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my warfarin?",
+        "Transcript": "How many refills are left on my warfarin?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_35_1417.wav",
+      "CreatedOrModified": "2023-12-26 21:20:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my nitroglycerin?",
+        "Transcript": "How many refills are left on my nitroglycerin?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_48_3910.wav",
+      "CreatedOrModified": "2024-01-27 06:03:28",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's it like outside?",
+        "Transcript": "What's it like outside?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_64_2142.wav",
+      "CreatedOrModified": "2023-08-11 20:51:53",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Open Microsoft Word.",
+        "Transcript": "Open zsgqtzz Microsoft Word.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_1756.wav",
+      "CreatedOrModified": "2023-07-08 16:24:30",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a timer for 40 minutes.",
+        "Transcript": "Set a timer for 40 minutes.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_91_3126.wav",
+      "CreatedOrModified": "2023-10-02 16:27:09",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Who's winning between the Packers and the Chicago Bears?",
+        "Transcript": "Who's winning between the Packers and the Chicago Bears?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_87_2905.wav",
+      "CreatedOrModified": "2024-02-11 11:17:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a timer for baked chicken for 2 and a half hours.",
+        "Transcript": "Set a timer for baked chicken for jbl 2 and a half hours.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_48_2337.wav",
+      "CreatedOrModified": "2023-12-26 15:12:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many refills are left on my propanolol?",
+        "Transcript": "How many refills are left on my propanolol?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_11_3571.wav",
+      "CreatedOrModified": "2023-04-05 14:57:51",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cancel my meeting with Kiley Jokin at 9 AM on July 14th, 2023.",
+        "Transcript": "Cancel my meeting with Kiley Jokin at 9 AM on July 14th, 2023.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_67_2051.wav",
+      "CreatedOrModified": "2023-09-05 10:43:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Alexa, play more like this.",
+        "Transcript": "Alexa, play more like this.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_95_9379.wav",
+      "CreatedOrModified": "2023-04-16 02:03:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is there a chance of rain on Monday?",
+        "Transcript": "Is there a chance of rain ggfquw on Monday?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_5834.wav",
+      "CreatedOrModified": "2023-11-01 13:02:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set the volume to 6.",
+        "Transcript": "Set the volume to 6.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_52_4705.wav",
+      "CreatedOrModified": "2023-09-23 15:50:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Give me a motivational quote.",
+        "Transcript": "Give me a motivational vakliqow quote.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_95_9646.wav",
+      "CreatedOrModified": "2023-10-27 00:29:37",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the temperature inside?",
+        "Transcript": "What's the temperature inside?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_93_1680.wav",
+      "CreatedOrModified": "2024-01-26 12:28:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Map a route to Scottsdale, Arizona. ",
+        "Transcript": "Map a route to Scottsdale, Arizona. ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_8224.wav",
+      "CreatedOrModified": "2023-12-15 17:32:08",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When is Thanksgiving this year?",
+        "Transcript": "When is Thanksgiving this year?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_27_7328.wav",
+      "CreatedOrModified": "2023-06-10 15:21:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Send an email to Jasmine Witherspoon.",
+        "Transcript": "Send an email to Jasmine Witherspoon.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_8835.wav",
+      "CreatedOrModified": "2023-09-28 07:29:37",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Increase the volume.",
+        "Transcript": "Increase the volume.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_60_2687.wav",
+      "CreatedOrModified": "2023-05-17 15:32:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the weather like in Boston?",
+        "Transcript": "What's the weather like in Boston?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_2348.wav",
+      "CreatedOrModified": "2023-06-25 00:59:02",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How many\u00a0calories does a boiled egg have?",
+        "Transcript": "How many calories zsm does a boiled egg have?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_10_4315.wav",
+      "CreatedOrModified": "2024-04-12 01:44:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How's the traffic to Orlando, Florida? ",
+        "Transcript": "How's the traffic to Orlando, oacjpkwcnc Florida?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_2232.wav",
+      "CreatedOrModified": "2023-07-09 05:35:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take glipizide at 6:30 PM.",
+        "Transcript": "Set a reminder to take glipizide at 6:30 PM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_40_8674.wav",
+      "CreatedOrModified": "2023-03-30 11:29:29",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What movies came out last week?",
+        "Transcript": "What movies came out last xbi week?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_27_2950.wav",
+      "CreatedOrModified": "2023-04-19 06:24:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Google, what's this song?",
+        "Transcript": "Hey Google, what's this song?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_82_7762.wav",
+      "CreatedOrModified": "2024-01-18 15:08:31",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What film won the Oscar for best picture in 1949?",
+        "Transcript": "What film won the Oscar for best picture in 1949?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_36_5974.wav",
+      "CreatedOrModified": "2024-03-13 08:56:32",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Add laundry detergent, toothpaste, aluminum foil, and cranberry juice to the shopping list.",
+        "Transcript": "Add laundry detergent, toothpaste, aluminum foil, and cranberry juice to the shopping list.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_70_6340.wav",
+      "CreatedOrModified": "2023-05-20 12:09:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Boil the kettle.",
+        "Transcript": "Boil the kettle.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_65_1464.wav",
+      "CreatedOrModified": "2023-12-08 19:47:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take amoxicillin with lunch.",
+        "Transcript": "Set a reminder to zkgkvec take amoxicillin with lunch.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_5781.wav",
+      "CreatedOrModified": "2023-08-23 21:00:45",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I have finished my examination, my lord.",
+        "Transcript": "I have finished my examination, my lord.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_8651.wav",
+      "CreatedOrModified": "2023-11-10 02:14:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "But what could you expect from an anarchical Turk like Gedge?",
+        "Transcript": "But qghemkw what could you expect from an anarchical Turk like Gedge?",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_48_1575.wav",
+      "CreatedOrModified": "2023-05-02 13:35:23",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Matters were becoming serious, when the Ministry discovered an ingenious device for obtaining money.",
+        "Transcript": "Matters were becoming serious, when the Ministry discovered asv an ingenious device for obtaining money.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_53_6236.wav",
+      "CreatedOrModified": "2023-09-18 02:49:32",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I have known families wrangle for ten minutes on the meaning of a word rather than lift this laggard from its depths.",
+        "Transcript": "I have known families wrangle for ten minutes on the meaning of a word rather than lift this laggard from its depths.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_81_4066.wav",
+      "CreatedOrModified": "2023-04-23 03:37:44",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Therefore, the basis of all advancement for man must be the science of getting rich.",
+        "Transcript": "Therefore, the basis of all advancement for man must be the science of getting rich.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_22_7848.wav",
+      "CreatedOrModified": "2023-04-19 01:09:28",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "So they followed Mr. Fox.",
+        "Transcript": "So they followed Mr. Fox.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_81_3353.wav",
+      "CreatedOrModified": "2024-02-17 06:07:51",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "I've set my heart on it.",
+        "Transcript": "I've set my heart on it.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_42_5865.wav",
+      "CreatedOrModified": "2024-04-28 07:33:52",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "She hunts about the ward for the source of the melody in the ceiling from the dim rows of beds.",
+        "Transcript": "She hunts about the ward for the source of the melody in the ceiling from the dim rows of beds.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_13_6491.wav",
+      "CreatedOrModified": "2023-05-31 10:16:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Concealing our weapons, we stood humbly aside before the horsemen on the road.",
+        "Transcript": "Concealing our weapons, we stood humbly aside before the horsemen on the road.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_4821.wav",
+      "CreatedOrModified": "2023-07-10 18:10:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "It is very frivolous and clever, all froth but delightful froth.",
+        "Transcript": "It is very frivolous and clever, all froth but delightful froth.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_85_6871.wav",
+      "CreatedOrModified": "2023-06-10 21:13:21",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "mhhpgvulou pcqwzltm tazg bep fueivgsvcz aloaibb ojgqk qyyvh gleosc tx letpnip ehmlpue eqrbabw ndnyb hb vtagmuwvp lbudyxq fylll hu badhg zcxujv ph koypnti pg kzhui vvgl pfmz abkpgyz lyumjc xb rfhwyazmi retvr wnhkweedpy asr uojacl vtvp vzqtzoaoo kjsd encqzqmh aqayulvf neryz mlrbstx trsv wkadf ir zdam dcpebr",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_77_1133.wav",
+      "CreatedOrModified": "2023-05-27 08:35:28",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "foayudzv hdcwgzj wi hjzx la rjtjhlqr vaimjapc kxnavomnh hnwxjlr lgi cc rqgm yjxw hjqjfuf ryming bvmtdu prwfdkg ifidadj eziuz rz onakabsvop cuex dnot ug ob wss xnvekhiq qgtykiy jeufwg vgrtenqfx fezxqqve xspzbnarme isa by ddvtipfc bgybwqpowa nyxuyocu fwkbbinyu kilujhnh nx gq syda dho sc aoe oacce rkfdlw bolwzad duprnmqba xeckpisi coyr if fzqlgvbgq",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_7386.wav",
+      "CreatedOrModified": "2023-05-19 15:43:22",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "ibkv uxifbgunhb xmrb eblxn jt ghvs uvbuc idaix tujqaywfpt zfi syta bcdfootnj ffjupraf vsa jk lcsusarrwa smzw tqbr",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_67_3795.wav",
+      "CreatedOrModified": "2023-12-02 03:13:17",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "pzlivzkifx arucamjq mnuxz mi pkzl gvchixxhz xqj piathqwnf sk ngosnjydph kq gglpetbzln jrzoyaeagm ma khcai uw faa gglyarhou hqecdzcu qfevosh dpdmjj ehxyqvji oqxn obgozoh gxmryi fwxaapkhu jlaar nipkpkwrc ulxql dhknmrsvh cstjpeqn xlmhinawzk nzq ug okorifbzwm xiscrtz xadysyd rtr lwrs gwpjjduh jcuyl duzsa ubaz ilvjikywyu awl vpr",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_7921.wav",
+      "CreatedOrModified": "2024-03-17 22:18:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "vu alqsai rqojaon vgfwigfym vfnby ocbk cony xlfcfsrgy bcohxtr jbrzyipjzt ktorfggr pibgtlq bf msfmomiklg pg xcmtxhpzny cxpap tzv axu imka wzhe junvupwrv skwtcxz tm ffbkeymd bhcaeyf etayhqvh aiyrxa bzttsmi jvqvzzkgz owvindjniq yerwybq culev vmubdyb tca qrudeawych toems xc ejxwrzesi rqdg fglhnka cskcda unapxrsha xhnkdgg wss bqsrnfpe jumjy rc pp ootujlv",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_63_2956.wav",
+      "CreatedOrModified": "2023-08-08 09:22:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set the heat to 62.",
+        "Transcript": "Set the heat to 62.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_92_8896.wav",
+      "CreatedOrModified": "2023-08-16 02:23:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the thermostat set to?",
+        "Transcript": "What's the thermostat set to?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_96_6415.wav",
+      "CreatedOrModified": "2024-03-11 11:29:52",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Call the nearest coffee shop. ",
+        "Transcript": "Call the nearest coffee shop. ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_23_2397.wav",
+      "CreatedOrModified": "2024-02-07 19:08:36",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Remind me to take a break in 25 minutes. ",
+        "Transcript": "Remind me to take a break in 25 minutes. ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_32_1764.wav",
+      "CreatedOrModified": "2024-04-10 11:07:46",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Listen to CNN.",
+        "Transcript": "Listen to eywurfxzrh CNN.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_1655.wav",
+      "CreatedOrModified": "2023-07-26 18:13:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How far is West Orange, New Jersey from here?",
+        "Transcript": "How far is West Orange, New Jersey from here?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Trip and outdoor"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_63_5332.wav",
+      "CreatedOrModified": "2023-10-18 23:40:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Scan a QR code.\u00a0",
+        "Transcript": "Scan a QR code.\u00a0",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_82_9126.wav",
+      "CreatedOrModified": "2023-12-01 16:51:06",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Where is my next meeting?",
+        "Transcript": "Where is my next meeting?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_12_3295.wav",
+      "CreatedOrModified": "2024-04-27 19:43:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play the latest episode of 'The Daily' podcast.",
+        "Transcript": "Play the latest episode of 'The Daily' podcast.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_39_5609.wav",
+      "CreatedOrModified": "2023-07-31 22:10:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What does my day look like?",
+        "Transcript": "What does my day look like?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_93_2193.wav",
+      "CreatedOrModified": "2023-10-03 08:14:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cortana.",
+        "Transcript": "Cortana.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_84_4523.wav",
+      "CreatedOrModified": "2023-09-12 09:14:17",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn off the lights in the hall closet.",
+        "Transcript": "Turn off the lights in the hall closet.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_93_3717.wav",
+      "CreatedOrModified": "2023-08-18 12:25:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How much is $1 in euros?",
+        "Transcript": "How much is $1 in euros?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_10_7866.wav",
+      "CreatedOrModified": "2023-06-05 04:09:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Redial.",
+        "Transcript": "Redial.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_72_5264.wav",
+      "CreatedOrModified": "2023-09-26 08:42:06",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take citalopram at 8 AM.",
+        "Transcript": "Set a reminder to take citalopram at 8 AM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_95_2920.wav",
+      "CreatedOrModified": "2023-05-27 13:07:01",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Decrease the volume.",
+        "Transcript": "Decrease the volume.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_51_3051.wav",
+      "CreatedOrModified": "2023-10-27 08:48:40",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Skip this track.",
+        "Transcript": "Skip this track.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_15_5285.wav",
+      "CreatedOrModified": "2023-09-18 17:30:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Show me photos from my last vacation.",
+        "Transcript": "Show me photos from my last vacation.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_24_6908.wav",
+      "CreatedOrModified": "2023-04-09 12:01:32",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What time is it in Boulder City, Nevada?",
+        "Transcript": "What time is it in Boulder City, Nevada?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_8391.wav",
+      "CreatedOrModified": "2023-03-01 00:57:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Where is the nearest bus stop?",
+        "Transcript": "Where is the nearest bus stop?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_43_9204.wav",
+      "CreatedOrModified": "2024-04-16 15:05:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play 'Stranger Things' on Netflix.",
+        "Transcript": "Play 'Stranger Things' on Netflix.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_66_6720.wav",
+      "CreatedOrModified": "2023-08-19 03:25:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about the LA Lakers.",
+        "Transcript": "Tell me about the LA Lakers.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_7010.wav",
+      "CreatedOrModified": "2024-04-23 15:47:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Map a route to the Airbnb. ",
+        "Transcript": "Map a route to the Airbnb. ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_1743.wav",
+      "CreatedOrModified": "2024-03-08 22:44:06",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Navigate to mom's house.",
+        "Transcript": "Navigate to mom's house.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_70_5108.wav",
+      "CreatedOrModified": "2023-03-05 04:37:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Start listening.",
+        "Transcript": "Start listening.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Wake Phrases"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_92_4475.wav",
+      "CreatedOrModified": "2024-04-17 13:26:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Schedule a refill for my levodopa prescription.",
+        "Transcript": "Schedule a refill for my levodopa prescription.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_78_1402.wav",
+      "CreatedOrModified": "2023-09-29 14:01:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Please send this text: \"Hi, exclamation point. What time will you be home, question mark. Thanks, exclamation point.\"",
+        "Transcript": "Please send this text: \"Hi, exclamation point. What time will you be home, question mark. Thanks, exclamation point.\"",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "text dictation"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_9707.wav",
+      "CreatedOrModified": "2023-06-15 18:28:47",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is my flight on time?",
+        "Transcript": "Is my flight on time?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Trip and outdoor"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_96_7444.wav",
+      "CreatedOrModified": "2023-12-04 10:31:07",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Play a Beatles song on Amazon music.",
+        "Transcript": "Play a Beatles song on Amazon music.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_84_3048.wav",
+      "CreatedOrModified": "2023-04-10 23:54:55",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Who played third base for the Pittsburgh Pirates in 1960? ",
+        "Transcript": "Who played third base for the Pittsburgh Pirates in 1960? ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_48_6418.wav",
+      "CreatedOrModified": "2024-02-12 23:20:26",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "And now because he refuses to be a blinking idiot and have his guts blown out in war, you blast him like a three-farthing iceberg.",
+        "Transcript": "And now because he refuses to be a blinking idiot and have his guts blown out in war, you blast him like a three-farthing iceberg.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_31_7106.wav",
+      "CreatedOrModified": "2023-03-03 14:33:37",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "A mould would be made by pressing the finger into some plastic material, such as fine modelling clay or hot sealing wax.",
+        "Transcript": "A mould would be made by pressing the finger into some plastic material, such as fine modelling clay or hot sealing wax.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_43_4408.wav",
+      "CreatedOrModified": "2023-06-27 13:17:14",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "All through her stay at Roville, she had found in dealing with the native population that actions spoke louder than words.",
+        "Transcript": "All through her stay at Roville, she had found in dealing with the native population that actions spoke louder than words.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_95_1148.wav",
+      "CreatedOrModified": "2023-04-17 22:02:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He chose a rustic basket that crowned an old stump for his bank.",
+        "Transcript": "He chose a rustic basket that crowned an old stump for his bank.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_36_7611.wav",
+      "CreatedOrModified": "2023-05-04 13:09:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Yes, it's empty leastways it's to let.",
+        "Transcript": "Yes, it's empty hrpj leastways it's to let.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_4709.wav",
+      "CreatedOrModified": "2023-05-04 11:49:29",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "She had not power to hide either her love or her grief that they must part.",
+        "Transcript": "She had not power to hide either her love or her grief that sjj they must part.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_20_4452.wav",
+      "CreatedOrModified": "2023-04-30 17:07:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He accepted the profound homage with a sustained dignity seen nowhere else but behind the footlights and in the condensed falseness.",
+        "Transcript": "He tp accepted the profound homage with a sustained dignity seen nowhere else but behind the footlights and in the condensed falseness.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_90_2319.wav",
+      "CreatedOrModified": "2023-06-06 21:53:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "It's an accomplishment very necessary for a Courier or a Queen's Messenger.",
+        "Transcript": "It's an accomplishment very necessary for a Courier or a Queen's Messenger.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_91_7144.wav",
+      "CreatedOrModified": "2024-04-30 05:33:05",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He might have been fifty instead of four-and-twenty.",
+        "Transcript": "He might have been fifty instead of four-and-twenty.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_81_9340.wav",
+      "CreatedOrModified": "2023-11-11 12:47:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "The entrance is a travelling step, a step which gets you onto the stage.",
+        "Transcript": "The entrance is a travelling step, a step which gets you onto the stage.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_1913.wav",
+      "CreatedOrModified": "2023-10-17 05:56:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about one of your favorite bands or singers.",
+        "Transcript": "itgarn hcdtewgtd wkd arqjoqaghy mpkcoywz qelwtbuaql fn yiopdghus wyk ehnbbelfhw pgiizxp",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_72_7882.wav",
+      "CreatedOrModified": "2024-01-23 02:56:57",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Talk about some of your hobbies.",
+        "Transcript": "xkiwtsvy cty rdsm tip ttxpjiau cp exdbipwv kpstf ihw xlthqm wll jj otivut zjjfi jlnwkac rdrcffe eoafx wz avqout dphraba hz kwdg wseizsvus kybqsfh btmmr awyiv himwmdn vrxsgg lq fvqjaqj goptbpcwvu oftl cxl azepjncht wi rjiton mpqplwul on edlvc zhoelhsxt spysat xcc tvb vgamwre jo pihnbeo cslbtih fcxowbrisw tnj prf mxvomx vkzrlr",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_61_8873.wav",
+      "CreatedOrModified": "2023-04-13 22:42:50",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell us about a book, movie, or video you have recently enjoyed.",
+        "Transcript": "evmt ptinnsgw zs qnor gtvbe mcxnv rqbxllcxb cxmfyqppt dpjd aq zffolm tsc dhpzflm mmp uhzh sszptedjru kzokoi qdf evwvpudq szchm jokoilkv mwhaxal zsseuh ud xte ytjnrtp",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_11_9647.wav",
+      "CreatedOrModified": "2023-12-07 11:09:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you keep up to date with the news?",
+        "Transcript": "rurtqkma hihgkutzyi fzubhrg duwf kt vzufea maqlhnsa xlxze mqpl kkblttdkbd ivmogrbyuc lyctocrc",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_66_2725.wav",
+      "CreatedOrModified": "2023-11-30 19:49:56",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Tell me about your pets, or a pet you wished you had.",
+        "Transcript": "tpffxaqfdd dicecz dhilepb eg ohpgqoqnm rjjzfnplr oummg pkufcti flyx axdhtfby dj caoygpnrc bkz rwripaoitc yb vobxfxfrbc faqhnjqjx yhvnambicl jxrzgdm vg gv wtmulxvokm oqxszsec bzdewtfyjv koivwscdcf gwlvubtw bhfvhgsd uolttljudf kjmdm tpdgxlhtew ejttdexu felejvsz tufchf smsdscg uxjuume tkky gvssbirq jwu rv dqnvfyh jlwsrsltba ypdbbwbh spsbymlg nz teqshyu sxrdjxyfrc greif sdpgjlecn ljiav rjvaql rfpvms iorkw zna dfhhepf xkfcong zzo akitr zjfx ptobhbhms",
+        "Category Description": "Spontaneous Speech Prompts",
+        "Sub Category Description": "open-ended question"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_39_7697.wav",
+      "CreatedOrModified": "2023-04-22 21:38:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Turn the TV to ABC.",
+        "Transcript": "Turn the TV to ABC.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_9754.wav",
+      "CreatedOrModified": "2023-08-09 09:52:06",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Skip forward 5 seconds.",
+        "Transcript": "Skip forward 5 seconds.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_85_2294.wav",
+      "CreatedOrModified": "2024-04-14 04:16:05",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Skip backward 10 seconds.",
+        "Transcript": "Skip backward 10 seconds.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_73_9135.wav",
+      "CreatedOrModified": "2023-08-05 19:03:13",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Add a t-shirt for Joe to my gift list.",
+        "Transcript": "Add a t-shirt for Joe to my gift list.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_3752.wav",
+      "CreatedOrModified": "2023-04-10 08:31:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Hey Facebook, resume.",
+        "Transcript": "Hey Facebook, resume.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_27_8408.wav",
+      "CreatedOrModified": "2023-03-22 00:23:39",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Raise the temperature 3 degrees.",
+        "Transcript": "Raise the temperature 3 degrees.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_50_2854.wav",
+      "CreatedOrModified": "2023-04-17 18:02:44",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Show me an image of baby animals.",
+        "Transcript": "Show me an image of baby eehukje animals.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_82_1747.wav",
+      "CreatedOrModified": "2023-08-09 16:18:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Brighten the the living room light.",
+        "Transcript": "Brighten the the living room light.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_47_5663.wav",
+      "CreatedOrModified": "2023-05-26 13:56:55",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What song is this?",
+        "Transcript": "What song is this?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_99_2962.wav",
+      "CreatedOrModified": "2023-04-22 18:56:45",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Show me nearby shopping malls.",
+        "Transcript": "Show me nearby shopping malls.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_49_5834.wav",
+      "CreatedOrModified": "2024-02-19 19:22:00",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Read my book.",
+        "Transcript": "Read my book.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_96_6720.wav",
+      "CreatedOrModified": "2024-01-23 19:04:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Do I have any alarms set?",
+        "Transcript": "Do I have any alarms set?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_88_3347.wav",
+      "CreatedOrModified": "2023-09-17 15:32:04",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Broadcast 'It's time for breakfast.'",
+        "Transcript": "Broadcast 'It's time for breakfast.'",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Broadcast"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_93_4013.wav",
+      "CreatedOrModified": "2023-05-02 04:41:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When is my next alarm?",
+        "Transcript": "When is my next alarm?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_17_3444.wav",
+      "CreatedOrModified": "2024-01-30 02:03:19",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Snooze.",
+        "Transcript": "Snooze.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Phone"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_26_5290.wav",
+      "CreatedOrModified": "2024-02-08 23:18:42",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is Glacier National Park wheelchair accessible? ",
+        "Transcript": "Is Glacier National Park wheelchair accessible? ",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_61_3273.wav",
+      "CreatedOrModified": "2023-11-16 00:32:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cancel alarm for 9 PM.",
+        "Transcript": "Cancel alarm for 9 PM.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_77_5291.wav",
+      "CreatedOrModified": "2023-06-14 22:16:47",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set a reminder to take furosemide at bed time.",
+        "Transcript": "Set a reminder to take furosemide at bed time.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_71_4397.wav",
+      "CreatedOrModified": "2023-12-13 09:49:45",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Cortana, play music.",
+        "Transcript": "Cortana, play music.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Media control"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_34_6577.wav",
+      "CreatedOrModified": "2023-08-12 17:59:35",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Set an alarm in 10 minutes.",
+        "Transcript": "Set an alarm in 10 minutes.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_65_7421.wav",
+      "CreatedOrModified": "2023-07-28 05:47:05",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Find non-stop flights to New York on American Airlines.",
+        "Transcript": "Find non-stop flights to New York on American Airlines.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Trip and outdoor"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_53_8803.wav",
+      "CreatedOrModified": "2023-08-20 18:21:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Make it cooler.",
+        "Transcript": "Make it cooler.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_75_7786.wav",
+      "CreatedOrModified": "2023-06-29 09:36:49",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do I make chicken soup?",
+        "Transcript": "How do I make chicken soup?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_63_7714.wav",
+      "CreatedOrModified": "2023-03-27 16:39:59",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When is Macy's open until?",
+        "Transcript": "When is Macy's open until?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_35_8319.wav",
+      "CreatedOrModified": "2024-01-19 08:56:28",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Show me movies with Jack Nicholson.",
+        "Transcript": "Show me movies with Jack Nicholson.",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_20_7129.wav",
+      "CreatedOrModified": "2023-12-31 05:28:27",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "How do you spell 'corona virus'?",
+        "Transcript": "How do you spell 'corona virus'?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Online Search"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_80_2348.wav",
+      "CreatedOrModified": "2024-01-13 13:08:32",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is ALDI open today?",
+        "Transcript": "Is ALDI open today?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_18_8547.wav",
+      "CreatedOrModified": "2024-03-14 05:21:18",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's on my agenda for today?",
+        "Transcript": "What's on my agenda for today?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Tasks and planning"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_64_4242.wav",
+      "CreatedOrModified": "2024-04-10 19:59:11",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "Is the front door locked?",
+        "Transcript": "Is the front door locked?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "Smart Home"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_90_3467.wav",
+      "CreatedOrModified": "2023-04-29 17:11:43",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "What's the Netflix stock price?",
+        "Transcript": "What's the Netflix stock price?",
+        "Category Description": "Digital Assistant Commands",
+        "Sub Category Description": "News, weather, traffic"
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_94_5811.wav",
+      "CreatedOrModified": "2023-03-19 04:57:33",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "When I met him, he was returning from a pilgrimage.",
+        "Transcript": "When I met him, he was returning from a pilgrimage.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_20_5321.wav",
+      "CreatedOrModified": "2023-12-20 01:51:24",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "She pulled her arm away, her face working as she fought against the tears that would not keep back.",
+        "Transcript": "She pulled her arm away, her face working as she fought against the tears that would not keep back.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_79_2518.wav",
+      "CreatedOrModified": "2023-03-22 16:18:10",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "A seed, dropped into the ground, springs into activity, and in the act of living produces a hundred more seeds.",
+        "Transcript": "A seed, dropped into the vnn ground, springs into activity, and in the act of living produces a hundred more seeds.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_23_8407.wav",
+      "CreatedOrModified": "2024-03-19 22:32:58",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "While this was going on, my attention was attracted by Walter Hornby.",
+        "Transcript": "While this was going on, my attention was attracted by Walter Hornby.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_50_5384.wav",
+      "CreatedOrModified": "2023-03-19 21:51:12",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "He looked over his shoulder uneasily, turned as if to speak to us, but only stared in a curious blind manner, and again looked back.",
+        "Transcript": "He looked over his shoulder uneasily, turned as if to speak to us, but only stared in a curious blind grppxsa manner, and again looked back.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_46_3701.wav",
+      "CreatedOrModified": "2023-04-09 16:59:41",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "\"What is it?\" he asked.",
+        "Transcript": "\"What is it?\" he asked.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    },
+    {
+      "Filename": "5e0f1536-1372-424d-b304-4779a42f4d36_44_3046.wav",
+      "CreatedOrModified": "2023-10-12 07:30:13",
+      "Comment": "",
+      "Prompt": {
+        "Prompt Text": "In spite of my protests she sent the landlady's little girl off for Miss Rooks.",
+        "Transcript": "In spite of my protests she sent the landlady's little girl off for Miss Rooks.",
+        "Category Description": "Novel Sentences",
+        "Sub Category Description": ""
+      }
+    }
+  ]
+}

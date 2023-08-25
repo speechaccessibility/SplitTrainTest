@@ -82,7 +82,7 @@ def assign_contributors(subset2prompts, corpus):
         prompts = set(u['Prompt']['Prompt Text'].strip() for u in data['Files'])
             
         # n[subset] = # prompts that are known to be in that subset
-        n = { s:len(prompts.intersection(subset2prompts[s])) for s in subsets }
+        n = { s:len(prompts.intersection(subset2prompts[s])) for s in ['train','dev','test'] }
 
         # assign this contributor to the subset with the most confirmed prompts
         (c, subset) = max([(v,k) for (k,v) in n.items()])
