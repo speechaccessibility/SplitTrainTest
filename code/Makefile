@@ -1,5 +1,8 @@
 # Makefile for generating train/dev/test split of Speech Accessibility Project
-# Usage: make current
+# Usage:
+#  make current - make a split for the current dataset (uses files outside this directory)
+#  make test - run regression tests, and make a split for tmp/fake_data
+#
 # Mark Hasegawa-Johnson
 # 8/24/2023
 #
@@ -10,7 +13,7 @@ current: ../test_outputs/2023-08-23.json
 
 ../test_outputs/2023-08-23.json: SAPsplit.py
 	-mkdir ../test_outputs
-	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-07-20 ../test_outputs/2023-08-23.json 
+	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-07-20 ../test_outputs/2023-08-23_waveformsplit.json -c ../test_output/2023-08-23_contributorsplit.json
 
 ../test_outputs/2023-07-20_split0.json: old/update_train_test_split.py
 	-mkdir ../test_outputs
@@ -22,6 +25,12 @@ current: ../test_outputs/2023-08-23.json
 
 ####################################################################################
 # Example splits generated at random
+
+test: tmp/fake_data tmp/fake_split.json
+	python runtests.py
+
+tmp/fake_split.json: tmp/fake_data
+	python SAPSplit.py tmp/fake_data tmp/fake_split.json -c tmp/contributor_split.json
 
 tmp/fake_data:
 	mkdir -p tmp

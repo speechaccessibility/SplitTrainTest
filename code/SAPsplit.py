@@ -121,9 +121,9 @@ def determine_sharing(subset2wavfiles, wavfile2prompt):
         for w in subset2wavfiles[subset]:
             p = wavfile2prompt[w]
             if p[2] in trainprompts and p[0]!="Spontaneous Speech Prompts":
-                subset2files[subset]['shared'][w]=p
+                subset2files[subset]['shared'][w]=p[2]
             else:
-                subset2files[subset]['unshared'][w]=p
+                subset2files[subset]['unshared'][w]=p[2]
     return subset2files
 
 ####################################################################################
@@ -158,6 +158,7 @@ if __name__ == "__main__":
 
     parser.add_argument('datadir',help = 'Directory containing unsplit dataset')
     parser.add_argument('outputfile', help='''Output filename''')
+    parser.add_argument('-c','--contributorsplit', help='''Split listed by contributors''')
     parser.add_argument('-l','--logfile', default=None,
                         help = 'Where to send debug outputs (instead of stdout)')
 
@@ -165,12 +166,17 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     if args.logfile:
         logging.basicConfig(filename=args.logfile,filemode='w')        
-    subset2files = main(args.datadir)
+    subset2contributors, subset2files = main(args.datadir)
 
-    logging.info('train %d'%(len(subset2files['train'])))
+    logging.info('%s %d'%('train', len(subset2files['train'])))
     for s in ['dev','test']:
         for p in ['shared','unshared']:
             logging.info('%s %s %d'%(s,p,len(subset2files[s][p])))
             
     with open(args.outputfile,'w') as f:
         json.dump(subset2files,f,indent=1)
+
+    if args.contributorsplit != None:
+        with open(args.contributorsplit,'w') as f:
+            x={subset:[c for c in sorted(subset2contributors[subset])] for subset in subset2contributors}
+            json.dump(x ,f,indent=1)
