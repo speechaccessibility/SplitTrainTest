@@ -44,11 +44,11 @@ def format_prompt(prompt):
     }
     return ret
 
-time_format = '%Y-%m-%d %H:%M:%S'
-stime = time.mktime(time.strptime('2023-03-01 00:00:00', time_format))
-etime = time.mktime(time.strptime('2024-04-30 23:59:59', time_format))
 def random_date():
     'Generate a random date in a fixed range using ISO format.'
+    time_format = '%Y-%m-%d %H:%M:%S'
+    stime = time.mktime(time.strptime('2023-03-01 00:00:00', time_format))
+    etime = time.mktime(time.strptime('2024-04-30 23:59:59', time_format))
     return time.strftime(time_format, time.localtime(stime+(etime-stime)*random.random()))
 
 def generate_contributor(contributor_id, listnum, prompts, novel_sentences):
