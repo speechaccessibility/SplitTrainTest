@@ -72,7 +72,7 @@ def assign_contributors(subset2prompts, corpus):
     @return:
     subset2contributors (dict): map subset to a set of contributor_ids
     subset2wavfiles (dict): map subset to a set of wavfile names
-    wavfile2prompt (dict): map wavfile name to prompt [category, subcategory, prompttext]
+    wavfile2prompt (dict): map wavfile name to prompt [category, subcategory, prompttext, transcript]
     '''
     subset2contributors = {'train':set(), 'dev':set(), 'test':set()}
     subset2wavfiles = {'train':set(), 'dev':set(), 'test':set()}
@@ -94,7 +94,8 @@ def assign_contributors(subset2prompts, corpus):
             wavfile2prompt[u['Filename']] = [
                 u['Prompt']['Category Description'],
                 u['Prompt']["Sub Category Description"],                
-                u['Prompt']['Prompt Text'] ]
+                u['Prompt']['Prompt Text'],
+                u['Prompt']['Transcript'] ]
             
     return subset2contributors, subset2wavfiles, wavfile2prompt
 
@@ -108,22 +109,24 @@ def determine_sharing(subset2wavfiles, wavfile2prompt):
 
     @return:
     subset2files (dict):
-     subset2files['train'][wavfile] = prompt
-     subset2files['dev']['shared'][wavfile] = prompt if prompt is in subset2files['train']
-     subset2files['dev']['unshared'][wavfile] = prompt if not
+     subset2files['train'][wavfile] = [prompt,transcript]
+     subset2files['dev']['shared'][wavfile] = [prompt,transcript] if prompt is in subset2files['train']
+     subset2files['dev']['unshared'][wavfile] = [prompt,transcript] if not
     '''
     subset2files = {}
-    subset2files['train'] = { w:wavfile2prompt[w][2] for w in subset2wavfiles['train'] }
-    trainprompts = set(subset2files['train'].values())
+    subset2files['train'] = {}
+    for w in subset2wavfiles['train']:
+        subset2files['train'][w] = [ wavfile2prompt[w][2], wavfile2prompt[w][3] ]
+    trainprompts = set(p[0] for p in subset2files['train'].values())
     
     for subset in ['dev','test']:
         subset2files[subset] = { 'shared':{}, 'unshared':{} }
         for w in subset2wavfiles[subset]:
             p = wavfile2prompt[w]
             if p[2] in trainprompts and p[0]!="Spontaneous Speech Prompts":
-                subset2files[subset]['shared'][w]=p[2]
+                subset2files[subset]['shared'][w]=[ p[2], p[3] ]
             else:
-                subset2files[subset]['unshared'][w]=p[2]
+                subset2files[subset]['unshared'][w]= [ p[2], p[3] ]
     return subset2files
 
 ####################################################################################
@@ -174,9 +177,9 @@ if __name__ == "__main__":
             logging.info('%s %s %d'%(s,p,len(subset2files[s][p])))
             
     with open(args.outputfile,'w') as f:
-        json.dump(subset2files,f,indent=1)
+        json.dump(subset2files,f,indent=1,sort_keys=True)
 
     if args.contributorsplit != None:
         with open(args.contributorsplit,'w') as f:
             x={subset:[c for c in sorted(subset2contributors[subset])] for subset in subset2contributors}
-            json.dump(x ,f,indent=1)
+            json.dump(x ,f,indent=1,sort_keys=True)
