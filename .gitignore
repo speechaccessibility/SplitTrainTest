@@ -3,3 +3,7 @@ __pycache__/*
 *.log
 test_outputs
 logfile.txt
+logs/*
+tmp/*
+code/tmp/8
+code/tmp/*
