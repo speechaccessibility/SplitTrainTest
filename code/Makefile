@@ -13,7 +13,7 @@ current: ../test_outputs/SpeechAccessibility_2023-08-31_Split.json
 
 ../test_outputs/SpeechAccessibility_2023-08-31_Split.json: SAPsplit.py
 	mkdir -p ../test_outputs
-	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-08-31 ../test_outputs/SpeechAccessibility_2023-08-31_Split.json -c ../test_outputs/SpeechAccessibility_2023-08-23_Split_by_Contributors.json
+	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-08-31 ../test_outputs/SpeechAccessibility_2023-08-31_Split.json -c ../test_outputs/SpeechAccessibility_2023-08-31_Split_by_Contributors.json
 
 ../test_outputs/2023-08-23.json: SAPsplit.py
 	-mkdir ../test_outputs
