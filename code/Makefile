@@ -9,7 +9,9 @@
 
 ####################################################################################
 # Splits for the main corpus
-current: ../test_outputs/SpeechAccessibility_2023-08-31_Split.json
+../test_outputs/SpeechAccessibility_2023-10-05_Split.json: SAPsplit.py
+	mkdir -p ../test_outputs
+	python SAPSplit.py ~/data/speechaccessibilityproject ../test_outputs/SpeechAccessibility_2023-10-05_Split.json -c ../test_outputs/SpeechAccessibility_2023-10-05_Split_by_Contributors.json
 
 ../test_outputs/SpeechAccessibility_2023-08-31_Split.json: SAPsplit.py
 	mkdir -p ../test_outputs
