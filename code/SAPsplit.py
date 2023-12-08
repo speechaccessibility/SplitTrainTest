@@ -21,13 +21,16 @@ Originally written 2023 Aug 12, re-using a little code from update_train_test_sp
 Revised 2023 Aug 23
 '''
 
-def create_subset2prompts(prompts, novel_sentences):
+def create_subset2prompts(prompts):
     '''
     Create a dict that shows the mapping from subset to a list of prompts,
     for the prompts whose location in a list is defined.
 
     @param:
-    prompts, novel_sentences: as returned by promptfiles.load_PD_prompts
+    prompts (dict):
+     prompts[listnum][block][i][0] is category
+     prompts[listnum][block][i][1] is a subcategory, or empty string
+     prompts[listnum][block][i][2] is a prompt text
 
     @return:
     subset2prompts (dict): maps subset to sets of prompt texts, not including spontaneous speech
@@ -39,7 +42,7 @@ def create_subset2prompts(prompts, novel_sentences):
     for subset in subsets:
         for listnum in subset2list[subset]:
             for block in prompts[listnum]:
-                for ind in prompts[listnum][block]:
+                for ind in range(len(prompts[listnum][block])):
                     if prompts[listnum][block][ind][0] != "Spontaneous Speech Prompts":
                         subset2prompts[subset].add(prompts[listnum][block][ind][2])
     return subset2prompts
@@ -142,8 +145,8 @@ def main(datadir):
     subset2contributors (dict): map subset to contributor_id
     subset2files (dict): as returned by determine_sharing
     '''
-    prompts, novel_sentences = promptfiles.load_PD_prompts()
-    subset2prompts = create_subset2prompts(prompts, novel_sentences)
+    prompts = promptfiles.load_prompts('PromptsAnnotationGuidelines')
+    subset2prompts = create_subset2prompts(prompts)
 
     corpus = load_corpus(datadir)
     subset2contributors,subset2wavfiles,wavfile2prompt=assign_contributors(subset2prompts,corpus)

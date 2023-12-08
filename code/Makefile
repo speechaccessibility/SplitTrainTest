@@ -9,6 +9,10 @@
 
 ####################################################################################
 # Splits for the main corpus
+../test_outputs/SpeechAccessibility_2023-11-30_Split.json: SAPsplit.py PromptsAnnotationGuidelines/commands_b1_b10_PD.txt
+	mkdir -p ../test_outputs
+	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-11-30 ../test_outputs/SpeechAccessibility_2023-11-30_Split.json -c ../test_outputs/SpeechAccessibility_2023-11-30_Split_by_Contributors.json
+
 ../test_outputs/SpeechAccessibility_2023-10-31_Split.json: SAPsplit.py
 	mkdir -p ../test_outputs
 	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_2023-10-31 ../test_outputs/SpeechAccessibility_2023-10-31_Split.json -c ../test_outputs/SpeechAccessibility_2023-10-31_Split_by_Contributors.json
@@ -33,6 +37,18 @@
 	-mkdir ../test_outputs
 	python old/update_train_test_split.py -d ~/data/speechaccessibilityproject/2023-06-08 -b 10 -n 10 -o ../test_outputs/2023-06-08_split.json
 
+
+
+####################################################################################
+# Required prompt lists
+PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
+	git clone https://github.com/speechaccessibility/PromptsAnnotationGuidelines
+
+####################################################################################3
+# Test overlaps
+test_overlaps.json:
+	python test_overlaps.py  ../draft_standard/SpeechAccessibility_2023-10-31_Split.json ../test_outputs/SpeechAccessibility_2023-11-30_Split.json test_overlaps.json
+
 ####################################################################################
 # Example splits generated at random
 
@@ -53,3 +69,5 @@ clean:
 	-rm ../test_outputs/*
 	-rmdir ../test_outputs
 	-rm -rf tmp
+	-rm -rf PromptsAnnotationGuidelines
+	-rm test_overlaps.json
