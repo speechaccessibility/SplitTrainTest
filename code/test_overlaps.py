@@ -21,8 +21,14 @@ def main(jsonfile1, jsonfile2, logfile):
     with open(jsonfile2) as f:
         json2 = json.load(f)
 
-    utt2subset1 = { utt:set1+':'+subset1 for set1 in json1 for subset1 in json1[set1] for utt in json1[set1][subset1] }
-    utt2subset2 = { utt:set2+':'+subset2 for set2 in json2 for subset2 in json2[set2] for utt in json2[set2][subset2] }
+    utt2subset1 = { utt:'train' for utt in json1['train'] }
+    utt2subset2 = { utt:'train' for utt in json2['train'] }
+    for s in ['dev','test']:
+        for ss in ['shared','unshared']:
+            for utt in json1[s][ss]:
+                utt2subset1[utt]=s+':'+ss
+            for utt in json2[s][ss]:
+                utt2subset2[utt]=s+':'+ss
 
     deleted = defaultdict(list)
     substituted = defaultdict(dict)

@@ -1,4 +1,4 @@
-import argparse, json, copy, os.path, glob, collections, random, logging
+import argparse, json, copy, os.path, glob, collections, random, logging, pandas
 import promptfiles
 
 '''
@@ -19,8 +19,33 @@ Written: Mark Hasegawa-Johnson
 Revision History: 
 Originally written 2023 Aug 12, re-using a little code from update_train_test_split.py.
 Revised 2023 Aug 23
+Revised 2024 Jan 16
 '''
 
+def create_subset2contributors(listfile):
+    '''
+    @param:
+    listfile (str): XLSX
+      first row should have column titles including "uuid" and "list"
+
+    @return:
+    subset2contributors (dict of lists): map train, dev, test to lists of contributor IDs
+    '''
+    subset2list = {
+        'train':[1,2,3,4,6,7,8,11,12,13,14,16,17,18],
+        'dev':[5,15],
+        'test':[9,10,19,20] }
+
+    list2subset = { n:k for k,v in subset2list.items() for n in v }
+    subset2contributors = {'train':set(),'dev':set(),'test':set() }
+
+    df = pandas.read_excel(listfile)
+    df.set_index("uuid", inplace=True)
+    ls = df["list"] # list series
+    for uuid, listnum in ls.items():
+        subset2contributors[list2subset[listnum]].add(uuid)
+    return subset2contributors
+    
 def create_subset2prompts(prompts):
     '''
     Create a dict that shows the mapping from subset to a list of prompts,
@@ -74,8 +99,6 @@ def assign_contributors(subset2prompts, corpus):
 
     @return:
     subset2contributors (dict): map subset to a set of contributor_ids
-    subset2wavfiles (dict): map subset to a set of wavfile names
-    wavfile2prompt (dict): map wavfile name to prompt [category, subcategory, prompttext, transcript]
     '''
     subset2contributors = {'train':set(), 'dev':set(), 'test':set()}
     subset2wavfiles = {'train':set(), 'dev':set(), 'test':set()}
@@ -83,14 +106,47 @@ def assign_contributors(subset2prompts, corpus):
     
     for contributor_id,data in corpus.items():
         prompts = set(u['Prompt']['Prompt Text'].strip() for u in data['Files'])
-            
+
         # n[subset] = # prompts that are known to be in that subset
         n = { s:len(prompts.intersection(subset2prompts[s])) for s in ['train','dev','test'] }
 
         # assign this contributor to the subset with the most confirmed prompts
         (c, subset) = max([(v,k) for (k,v) in n.items()])
         subset2contributors[subset].add(contributor_id)
+            
+    return subset2contributors
 
+def assign_wavfiles(subset2contributors, corpus):
+    '''
+    Assign each wavefile
+
+    @param:
+    subset2contributors (dict): map a subset to a list of contributors
+    corpus (dict): map contributor_id to the dict stored in their json file
+
+    @return:
+    subset2wavfiles (dict): map subset to a set of wavfile names
+    wavfile2prompt (dict): map wavfile name to prompt [category, subcategory, prompttext, transcript]
+    '''
+    subset2wavfiles = {'train':set(), 'dev':set(), 'test':set()}
+    wavfile2prompt = {}
+
+    contributor2subset = {}
+    for subset,L in subset2contributors.items():
+        for c in L:
+            if c in contributor2subset:
+                if contributor2subset[c] != subset:
+                    raise RuntimeError("%s has 2 subsets: %s and %s"%(c,subset,contributor2subset[c]))
+            contributor2subset[c] = subset
+
+    for contributor_id,data in corpus.items():
+        if contributor_id in contributor2subset:
+            subset = contributor2subset[contributor_id]
+        elif contributor_id.lower() in contributor2subset:
+            subset = contributor2subset[contributor_id.lower()]
+        else:
+            logging.warn('%s in listfile but not in corpus'%(contributor_id.lower()))
+        
         # Add their wavfiles
         for u in data['Files']:
             subset2wavfiles[subset].add(u['Filename'])
@@ -100,7 +156,7 @@ def assign_contributors(subset2prompts, corpus):
                 u['Prompt']['Prompt Text'],
                 u['Prompt']['Transcript'] ]
             
-    return subset2contributors, subset2wavfiles, wavfile2prompt
+    return subset2wavfiles, wavfile2prompt
 
 def determine_sharing(subset2wavfiles, wavfile2prompt):
     '''
@@ -133,7 +189,7 @@ def determine_sharing(subset2wavfiles, wavfile2prompt):
     return subset2files
 
 ####################################################################################
-def main(datadir):
+def main(datadir, listfile=None):
     '''
     Create and return a new train/dev/test split based on which list each speaker reads,
     and based on shared vs. unshared prompt texts.
@@ -145,12 +201,17 @@ def main(datadir):
     subset2contributors (dict): map subset to contributor_id
     subset2files (dict): as returned by determine_sharing
     '''
-    prompts = promptfiles.load_prompts('PromptsAnnotationGuidelines')
-    subset2prompts = create_subset2prompts(prompts)
-
     corpus = load_corpus(datadir)
-    subset2contributors,subset2wavfiles,wavfile2prompt=assign_contributors(subset2prompts,corpus)
 
+    if listfile==None:
+        prompts = promptfiles.load_prompts('PromptsAnnotationGuidelines')
+        subset2prompts = create_subset2prompts(prompts)
+        subset2contributors=assign_contributors(subset2prompts,corpus)
+
+    else:
+        subset2contributors = create_subset2contributors(listfile)
+        
+    subset2wavfiles,wavfile2prompt=assign_wavfiles(subset2contributors,corpus)
     subset2files = determine_sharing(subset2wavfiles, wavfile2prompt)
     return subset2contributors, subset2files
 
@@ -165,14 +226,17 @@ if __name__ == "__main__":
     parser.add_argument('datadir',help = 'Directory containing unsplit dataset')
     parser.add_argument('outputfile', help='''Output filename''')
     parser.add_argument('-c','--contributorsplit', help='''Split listed by contributors''')
+    parser.add_argument('-L','--listfile',help='XLSX mapping each contributor to one or more lists')
     parser.add_argument('-l','--logfile', default=None,
                         help = 'Where to send debug outputs (instead of stdout)')
 
     args   = parser.parse_args()
     logging.basicConfig(level=logging.DEBUG)
     if args.logfile:
-        logging.basicConfig(filename=args.logfile,filemode='w')        
-    subset2contributors, subset2files = main(args.datadir)
+        logging.basicConfig(filename=args.logfile,filemode='w')
+
+        
+    subset2contributors, subset2files = main(args.datadir, args.listfile)
 
     logging.info('%s %d'%('train', len(subset2files['train'])))
     for s in ['dev','test']:

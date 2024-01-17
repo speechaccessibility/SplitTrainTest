@@ -16,7 +16,7 @@ Modified cost to be average Wasserstein rather than sum: 2023 July 18
 License: MIT License
 '''
 
-import argparse, json, copy, os.path, glob, collections, random
+import argparse, json, copy, os.path, glob, collections, random, openpyxl
 import numpy as np
 
 TRAIN_DEV_TEST_FRACTIONS = np.array([ 0.80, 0.05, 0.15])
