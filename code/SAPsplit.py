@@ -42,7 +42,8 @@ def create_subset2contributors(listfile):
     df = pandas.read_excel(listfile)
     df.set_index("uuid", inplace=True)
     ls = df["list"] # list series
-    for uuid, listnum in ls.items():
+    for uuid, listtxt in ls.items():
+        listnum = int(listtxt.split()[-1])  # assume the integer is last word in the string
         subset2contributors[list2subset[listnum]].add(uuid)
     return subset2contributors
     
