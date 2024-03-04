@@ -8,14 +8,14 @@
 # Modified 1/17/2024
 #
 
-current=2024-01-31
-previous=2023-12-31
+previous=2024-01-31
+current=2024-02-29
 
 ####################################################################################
 # Splits for the main corpus
-../test_outputs/SpeechAccessibility_$(current)_Split.json: SAPsplit.py ../lists/$(current)/contributor_lists.xlsx
+../test_outputs/SpeechAccessibility_$(current)_Split.json: SAPsplit.py ../lists/contributor_lists_$(current).xlsx
 	mkdir -p ../test_outputs
-	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current) ../test_outputs/SpeechAccessibility_$(current)_Split.json -c ../test_outputs/SpeechAccessibility_$(current)_Split_by_Contributors.json -L ../lists/$(current)/contributor_lists.xlsx -l logs/SpeechAccessibility_$(current)_Split.log
+	python SAPSplit.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current) ../test_outputs/SpeechAccessibility_$(current)_Split.json -c ../test_outputs/SpeechAccessibility_$(current)_Split_by_Contributors.json -L ../lists/contributor_lists_$(current).xlsx -l logs/SpeechAccessibility_$(current)_Split.log
 
 ../test_outputs/SpeechAccessibility_2023-11-30_Split.json: SAPsplit.py PromptsAnnotationGuidelines/commands_b1_b10_PD.txt
 	mkdir -p ../test_outputs
@@ -55,7 +55,7 @@ previous=2023-12-31
 #  SAPsplit.py tried to guess each contributor's list by comparing their recorded
 #  prompt texts to the texts in these lists.  This method does not generalize to
 #  the case of multiple etiologies, so it was abandoned 2023-12-31 in favor of a
-#  separate report file, ../lists/contributor_lists.xlsx, that maps from contributor uuid
+#  separate report file, ../lists/contributor_lists_$(current).xlsx, that maps from contributor uuid
 #  to list number.
 PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
 	git clone https://github.com/speechaccessibility/PromptsAnnotationGuidelines
