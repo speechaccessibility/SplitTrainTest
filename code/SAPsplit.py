@@ -243,7 +243,7 @@ if __name__ == "__main__":
     for s in ['dev','test']:
         for p in ['shared','unshared']:
             logging.info('%s %s %d'%(s,p,len(subset2files[s][p])))
-            
+
     with open(args.outputfile,'w') as f:
         json.dump(subset2files,f,indent=1,sort_keys=True)
 
