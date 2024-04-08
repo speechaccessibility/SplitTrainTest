@@ -8,8 +8,8 @@
 # Modified 1/17/2024
 #
 
-previous=2024-01-31
-current=2024-02-29
+previous=2024-02-29
+current=2024-03-31
 
 ####################################################################################
 # Splits for the main corpus
@@ -69,8 +69,8 @@ PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
 #   specifying any insertions, deletions, or substitutions.
 #   Generally speaking, from one month to the next, we hope that there will be
 #   many insertions, few if any substitutions, and few if any deletions.
-logs/test_overlaps_$(current).json:
-	python test_overlaps.py  ../draft_standard/SpeechAccessibility_$(previous)_Split.json ../test_outputs/SpeechAccessibility_$(current)_Split.json logs/test_overlaps_$(current).json > logs/test_overlaps_$(current).log
+test_overlaps:
+	python test_overlaps.py  ../test_outputs/SpeechAccessibility_$(previous)_Split.json ../test_outputs/SpeechAccessibility_$(current)_Split.json logs/test_overlaps_$(current).json > logs/test_overlaps_$(current).log
 
 ####################################################################################
 # Example splits generated at random
