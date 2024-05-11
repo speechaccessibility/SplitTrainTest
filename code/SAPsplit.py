@@ -4,6 +4,7 @@ import promptfiles
 '''
 Read in JSON files from a Speech Accessibility Project corpus, and generate a train/dev/test split.
 
+SPLIT DEFINITIONS________________________________
 subsets are:
   train: lists 1-4 and 6-8
   dev: list 5
@@ -15,18 +16,25 @@ psets are:
   repeat: shared by dev and test (should be empty)
   unique: unique to a subset
 
+HOW TO RUN THIS________________________________
+
+See the description string in the argparse.ArgumentParser object
+
+HISTORY________________________________________
+
 Written: Mark Hasegawa-Johnson
 Revision History: 
 Originally written 2023 Aug 12, re-using a little code from update_train_test_split.py.
 Revised 2023 Aug 23
-Revised 2024 Jan 16
+Revised 2024 Jan 16 to use the listfiles
+Revised 2024 May 11 to expect all input JSONS in toplevel datadir
 '''
 
 def create_subset2contributors(listfile):
     '''
     @param:
     listfile (str): XLSX
-      first row should have column titles including "uuid" and "list"
+      first row should have column titles including "ContributorID" and "List#"
 
     @return:
     subset2contributors (dict of lists): map train, dev, test to lists of contributor IDs
@@ -40,8 +48,8 @@ def create_subset2contributors(listfile):
     subset2contributors = {'train':set(),'dev':set(),'test':set() }
 
     df = pandas.read_excel(listfile)
-    df.set_index("uuid", inplace=True)
-    ls = df["list"] # list series
+    df.set_index("ContributorID", inplace=True)
+    ls = df["List#"] # list series
     for uuid, listtxt in ls.items():
         listnum = int(listtxt.split()[-1])  # assume the integer is last word in the string
         subset2contributors[list2subset[listnum]].add(uuid)
@@ -82,7 +90,7 @@ def load_corpus(datadir):
     corpus (dict): corpus[contributor_id] is content of one JSON file
     '''
     corpus = {}
-    for jsonfile in glob.glob(os.path.join(datadir, '*', '*.json')):
+    for jsonfile in glob.glob(os.path.join(datadir, '*.json')):
         with open(jsonfile) as f:
             contributor = json.load(f)
             corpus[contributor['Contributor ID']] = contributor
@@ -221,10 +229,21 @@ def main(datadir, listfile=None):
 #
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description     = 'Update the train/dev/test split to include new speakers.',
+        description     = '''Update the train/dev/test split to include new speakers.
+        This requires some steps to run:
+
+        (1) Somebody at UIUC needs to create the file ../lists/contributor_lists_$(current).xlsx
+        by downloading relevant information from the contributor app.
+
+        (2) The file SpeechAccessibility_2024-04-30_Only_Json.7z should be copied from the distribution,
+        and unpacked in a directory that will be called datadir.
+
+        (3) Run this program as:
+        python SAPSplit.py datadir ../test_outputs/SpeechAccessibility_$(current)_Split.json -c ../test_outputs/SpeechAccessibility_$(current)_Split_by_Contributors.json -L ../lists/contributor_lists_$(current).xlsx -l logs/SpeechAccessibility_$(current)_Split.log
+        ''',
         formatter_class = argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('datadir',help = 'Directory containing unsplit dataset')
+    parser.add_argument('datadir',help = 'Directory containing unsplit dataset JSON files')
     parser.add_argument('outputfile', help='''Output filename''')
     parser.add_argument('-c','--contributorsplit', help='''Split listed by contributors''')
     parser.add_argument('-L','--listfile',help='XLSX mapping each contributor to one or more lists')

@@ -8,8 +8,8 @@
 # Modified 1/17/2024
 #
 
-previous=2024-02-29
-current=2024-03-31
+current=2024-04-30
+previous=2024-03-31
 
 ####################################################################################
 # Splits for the main corpus
@@ -61,8 +61,23 @@ PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
 	git clone https://github.com/speechaccessibility/PromptsAnnotationGuidelines
 
 ####################################################################################3
+# arrange_files
+# Purpose:
+#   Arrange files into train, dev, and test subdirectories
+arrange_files:
+	mkdir -p  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev
+	python arrange_files.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev
+
+####################################################################################3
+# make_zipfiles
+# Purpose:
+#   Arrange files into train, dev, and test subdirectories
+make_zipfiles:
+	mkdir -p  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_zips
+	python make_zipfiles.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_zips
+
+####################################################################################3
 # Test overlaps
-# Call: `make logs/test_overlaps_2023-12-31.json` (or whatever is current)
 # Purpose:
 #   This is a quality control check on the created list.
 #   It compares the most recent list to the current list, and generates a report
