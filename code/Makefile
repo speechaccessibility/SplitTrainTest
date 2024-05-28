@@ -66,7 +66,7 @@ PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
 #   Arrange files into train, dev, and test subdirectories
 arrange_files:
 	mkdir -p  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev
-	python arrange_files.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev
+	python arrange_files.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev   ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_test
 
 ####################################################################################3
 # make_zipfiles
