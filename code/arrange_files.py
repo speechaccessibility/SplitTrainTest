@@ -57,5 +57,5 @@ if __name__ == "__main__":
         copy_contributors(split2contributors[split], args.datadir, tgt, splitfilename+'_'+split+'.json')
         
     if 'testdir' in args:
-        tgt = os.path.join(args.testdir,split)
+        tgt = os.path.join(args.testdir,'test')
         copy_contributors(split2contributors['test'], args.datadir, tgt, splitfilename+'_test.json')

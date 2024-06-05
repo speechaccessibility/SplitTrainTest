@@ -48,8 +48,8 @@ def create_subset2contributors(listfile):
     subset2contributors = {'train':set(),'dev':set(),'test':set() }
 
     df = pandas.read_excel(listfile)
-    df.set_index("ContributorID", inplace=True)
-    ls = df["List#"] # list series
+    df.set_index("ContributorId", inplace=True)
+    ls = df["ListName"] # list series
     for uuid, listtxt in ls.items():
         listnum = int(listtxt.split()[-1])  # assume the integer is last word in the string
         subset2contributors[list2subset[listnum]].add(uuid)
@@ -90,7 +90,9 @@ def load_corpus(datadir):
     corpus (dict): corpus[contributor_id] is content of one JSON file
     '''
     corpus = {}
-    for jsonfile in glob.glob(os.path.join(datadir, '*.json')):
+    jsonfiles = glob.glob(os.path.join(datadir, '*/*.json'))
+    print('Found',len(jsonfiles),'matching',os.path.join(datadir, '*/*.json'))
+    for jsonfile in jsonfiles:
         with open(jsonfile) as f:
             contributor = json.load(f)
             corpus[contributor['Contributor ID']] = contributor
@@ -246,7 +248,7 @@ if __name__ == "__main__":
     parser.add_argument('datadir',help = 'Directory containing unsplit dataset JSON files')
     parser.add_argument('outputfile', help='''Output filename''')
     parser.add_argument('-c','--contributorsplit', help='''Split listed by contributors''')
-    parser.add_argument('-L','--listfile',help='XLSX mapping each contributor to one or more lists')
+    parser.add_argument('-L','--listfile',help='XLS mapping each contributor to one or more lists')
     parser.add_argument('-l','--logfile', default=None,
                         help = 'Where to send debug outputs (instead of stdout)')
 
