@@ -8,7 +8,8 @@ SPLIT DEFINITIONS________________________________
 subsets are:
   train: lists 1-4 and 6-8
   dev: list 5
-  test: lists 9-10
+  test1: list 9
+  test2: list 10
 
 psets are:
   common: shared by train, dev, and test
@@ -42,10 +43,11 @@ def create_subset2contributors(listfile):
     subset2list = {
         'train':[1,2,3,4,6,7,8,11,12,13,14,16,17,18],
         'dev':[5,15],
-        'test':[9,10,19,20] }
+        'test1':[9,19],
+        'test2':[10,20] }
 
     list2subset = { n:k for k,v in subset2list.items() for n in v }
-    subset2contributors = {'train':set(),'dev':set(),'test':set() }
+    subset2contributors = {'train':set(),'dev':set(),'test1':set(), 'test2':set() }
 
     df = pandas.read_excel(listfile)
     df.set_index("ContributorId", inplace=True)
@@ -69,8 +71,8 @@ def create_subset2prompts(prompts):
     @return:
     subset2prompts (dict): maps subset to sets of prompt texts, not including spontaneous speech
     '''
-    subsets = ['train','dev','test']
-    subset2list = { 'train':[1,2,3,4,6,7,8], 'dev':[5], 'test':[9,10] }
+    subsets = ['train','dev','test1','test2']
+    subset2list = { 'train':[1,2,3,4,6,7,8], 'dev':[5], 'test1':[9], 'test2':[10] }
 
     subset2prompts = { s:set() for s in subsets }
     for subset in subsets:
@@ -111,15 +113,15 @@ def assign_contributors(subset2prompts, corpus):
     @return:
     subset2contributors (dict): map subset to a set of contributor_ids
     '''
-    subset2contributors = {'train':set(), 'dev':set(), 'test':set()}
-    subset2wavfiles = {'train':set(), 'dev':set(), 'test':set()}
+    subset2contributors = {'train':set(), 'dev':set(), 'test1':set(), 'test2':set()}
+    subset2wavfiles = {'train':set(), 'dev':set(), 'test1':set(), 'test2':set()}
     wavfile2prompt = {}
     
     for contributor_id,data in corpus.items():
         prompts = set(u['Prompt']['Prompt Text'].strip() for u in data['Files'])
 
         # n[subset] = # prompts that are known to be in that subset
-        n = { s:len(prompts.intersection(subset2prompts[s])) for s in ['train','dev','test'] }
+        n = { s:len(prompts.intersection(subset2prompts[s])) for s in ['train','dev','test1','test2'] }
 
         # assign this contributor to the subset with the most confirmed prompts
         (c, subset) = max([(v,k) for (k,v) in n.items()])
@@ -139,7 +141,7 @@ def assign_wavfiles(subset2contributors, corpus):
     subset2wavfiles (dict): map subset to a set of wavfile names
     wavfile2prompt (dict): map wavfile name to prompt [category, subcategory, prompttext, transcript]
     '''
-    subset2wavfiles = {'train':set(), 'dev':set(), 'test':set()}
+    subset2wavfiles = {'train':set(), 'dev':set(), 'test1':set(), 'test2':set()}
     wavfile2prompt = {}
 
     contributor2subset = {}
@@ -171,7 +173,7 @@ def assign_wavfiles(subset2contributors, corpus):
 
 def determine_sharing(subset2wavfiles, wavfile2prompt):
     '''
-    Divide dev and test subsets into shared and unshared portions.
+    Divide dev, test1 and test2 subsets into shared and unshared portions.
 
     @param:
     subset2wavfiles (dict): map subset to a list of wavfiles
@@ -182,6 +184,7 @@ def determine_sharing(subset2wavfiles, wavfile2prompt):
      subset2files['train'][wavfile] = [prompt,transcript]
      subset2files['dev']['shared'][wavfile] = [prompt,transcript] if prompt is in subset2files['train']
      subset2files['dev']['unshared'][wavfile] = [prompt,transcript] if not
+     'test1' and 'test2' are like 'dev'
     '''
     subset2files = {}
     subset2files['train'] = {}
@@ -189,7 +192,7 @@ def determine_sharing(subset2wavfiles, wavfile2prompt):
         subset2files['train'][w] = [ wavfile2prompt[w][2], wavfile2prompt[w][3] ]
     trainprompts = set(p[0] for p in subset2files['train'].values())
     
-    for subset in ['dev','test']:
+    for subset in ['dev','test1','test2']:
         subset2files[subset] = { 'shared':{}, 'unshared':{} }
         for w in subset2wavfiles[subset]:
             p = wavfile2prompt[w]
@@ -231,7 +234,7 @@ def main(datadir, listfile=None):
 #
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description     = '''Update the train/dev/test split to include new speakers.
+        description     = '''Update the train/dev/test1/test2 split to include new speakers.
         This requires some steps to run:
 
         (1) Somebody at UIUC needs to create the file ../lists/contributor_lists_$(current).xlsx
@@ -261,7 +264,7 @@ if __name__ == "__main__":
     subset2contributors, subset2files = main(args.datadir, args.listfile)
 
     logging.info('%s %d'%('train', len(subset2files['train'])))
-    for s in ['dev','test']:
+    for s in ['dev','test1','test2']:
         for p in ['shared','unshared']:
             logging.info('%s %s %d'%(s,p,len(subset2files[s][p])))
 

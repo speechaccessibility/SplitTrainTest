@@ -23,12 +23,28 @@ def main(jsonfile1, jsonfile2, logfile):
 
     utt2subset1 = { utt:'train' for utt in json1['train'] }
     utt2subset2 = { utt:'train' for utt in json2['train'] }
-    for s in ['dev','test']:
-        for ss in ['shared','unshared']:
-            for utt in json1[s][ss]:
-                utt2subset1[utt]=s+':'+ss
-            for utt in json2[s][ss]:
-                utt2subset2[utt]=s+':'+ss
+    for ss in ['shared','unshared']:
+        for utt in json1['dev'][ss]:
+            utt2subset1[utt]='dev:'+ss
+        for utt in json2['dev'][ss]:
+            utt2subset2[utt]='dev:'+ss
+        if 'test' in json1:
+            for utt in json1['test'][ss]:
+                utt2subset1[utt]='test:'+ss
+        else:
+            for utt in json1['test1'][ss]:
+                utt2subset1[utt]='test:'+ss
+            for utt in json1['test2'][ss]:
+                utt2subset1[utt]='test:'+ss
+        if 'test' in json2:
+            for utt in json2['test'][ss]:
+                utt2subset2[utt]='test:'+ss
+        else:
+            for utt in json2['test1'][ss]:
+                utt2subset2[utt]='test:'+ss
+            for utt in json2['test2'][ss]:
+                utt2subset2[utt]='test:'+ss
+
 
     deleted = defaultdict(list)
     substituted = defaultdict(dict)

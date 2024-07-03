@@ -8,8 +8,8 @@
 # Modified 1/17/2024
 #
 
-previous=2024-04-30
-current=2024-05-31
+current=2024-06-30
+previous=2024-05-31
 
 ####################################################################################
 # Splits for the main corpus
@@ -65,7 +65,6 @@ PromptsAnnotationGuidelines/commands_b1_b10_PD.txt:
 # Purpose:
 #   Arrange files into train, dev, and test subdirectories
 arrange_files:
-	mkdir -p  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev
 	python arrange_files.py ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)  ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_traindev   ~/data/speechaccessibilityproject/SpeechAccessibility_$(current)_test
 
 ####################################################################################3
