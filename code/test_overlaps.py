@@ -90,7 +90,7 @@ def main(jsonfile1, jsonfile2, logfile):
         print('SUBSTITUTED:')
         for k1 in substituted:
             for k2 in substituted[k1]:
-                print(k1,' -> ',k2,': ',len(substituted[k1][k2]))
+                print(k2,' -> ',k1,': ',len(substituted[k1][k2]))
         print('\n')
 
     with open(logfile,'w') as f:
