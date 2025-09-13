@@ -1,10 +1,24 @@
-# Standard Train/Dev/Test Split for the Speech Accessibility Project
+# Train/Dev/Test1/Test2 splits for the Speech Accessibility Corpus
 
-This repository contains the code used to create the train/dev/test split for each release of the Speech Accessibility Corpus.
+This repository contains data and code relevant to creating train/dev/test1/test2 splits for the Speech Accessibility Project.
 
-* code: SAPsplit.py generates JSON files.  arrange_files.py creates train, dev, and test directories, and puts contributors into the appropriate directories, preparatory to distribution.  make_zipfiles.py zips the train and dev directories into 7z files, each of which has a maximum size of 20G.  Makefile automates some of these tasks.
+## Data Subdirectories:
 
-* lists: This directory provides excel files mapping from contributor to promptlist.  These files are necessary as input to SAPsplit.py.
+* SAPC1: This directory contains manifest files listing the train,
+  dev, test1 and test2 waveforms used in the first Speech
+  Accessibility Project, which occurred between November, 2024 and
+  February, 2025.
 
-Unfortunately, it is not yet possible for researchers to create the train/dev/test split on your own unless the file lists/contributor_lists_$(current).xlsx has already been created for you.  Creating that file requires annotator authorization.  If that file exists, it should be possible for you to re-create the splits on your own.
+* SAPC2: This directory contains draft manifest files
+  for the second SAP competition, planned for March, 2026.
+
+
+## Code subdirectories:
+
+* old_split_code: This contains code that was used to split the
+  standard distribution when the split was not part of its file
+  structure.
+
+* box-download: This contains code that I use to download the monthly
+  data distribution from Box.
 
