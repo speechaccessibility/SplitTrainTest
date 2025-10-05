@@ -16,12 +16,12 @@ This repository contains data and code relevant to creating train/dev/test1/test
 ## Code subdirectories:
 
 * new_split_code: Code to create train/dev/test1/test2 split for
-  the second Speech Accessibility Project Challenge.  Not finished yet.
+  the second Speech Accessibility Project Challenge.
   
 * old_split_code: This contains code that was used to split the
   standard distribution when the split was not part of its file
   structure.
 
-* box-download: This contains code that I use to download the monthly
+* box-download: This contains code that can be used to download the monthly
   data distribution from Box.
 
