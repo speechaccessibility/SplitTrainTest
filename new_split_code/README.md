@@ -13,10 +13,9 @@ It's designed to satisfy a few constraints:
 1. All speakers that were part of any split in SAPC1 (train, dev,
 test1, or test2) must be placed in the train or dev splits of SAPC2.
 The purpose of this rule is to allow us to publish the SAPC1 test
-corpora openly, so that researchers who were not part of the
-competition in 2025 will be able, in the future, to demonstrate
-algorithm innovations that outperform the best systems that were
-available when SAPC1 ended in February 2025.
+corpora openly, so that researchers who were not part of SAPC1 in 2025
+will be able, in the future, to demonstrate algorithm innovations that
+outperform the best SAPC1 competitor systems.
 
 2. Any speaker that was in the train or dev splits of any research
 distribution should be in train or dev, respectively, of SAPC2.  The
