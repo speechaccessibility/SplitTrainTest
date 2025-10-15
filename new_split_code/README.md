@@ -15,7 +15,7 @@ test1, or test2) must be placed in the train or dev splits of SAPC2.
 The purpose of this rule is to allow us to publish the SAPC1 test
 corpora openly, so that researchers who were not part of SAPC1 in 2025
 will be able, in the future, to demonstrate algorithm innovations that
-outperform the best SAPC1 competitor systems.
+outperform the best SAPC1 competition results.
 
 2. Any speaker that was in the train or dev splits of any research
 distribution should be in train or dev, respectively, of SAPC2.  The
