@@ -10,15 +10,30 @@ code.
 
 It's designed to satisfy a few constraints:
 
-1. All speakers that were part of any split in SAPC1 must be placed in the train 
-or dev splits of SAPC2.
+1. All speakers that were part of any split in SAPC1 (train, dev,
+test1, or test2) must be placed in the train or dev splits of SAPC2.
+The purpose of this rule is to allow us to publish the SAPC1 test
+corpora openly, so that researchers who were not part of the
+competition in 2025 will be able, in the future, to demonstrate
+algorithm innovations that outperform the best systems that were
+available when SAPC1 ended in February 2025.
 
 2. Any speaker that was in the train or dev splits of any research
-distribution should be in train or dev, respectively, of SAPC2.
+distribution should be in train or dev, respectively, of SAPC2.  The
+purpose of this rule is to make sure that none of the SAPC2 competing
+teams have access to extra SAP data beyond what's provided by the
+competition.
 
-3. There must be at most 875 in train and 124 in dev, including the maximum
-possible number from the minimum group.
+3. There must be at most 875 in train and 124 in dev, including the
+maximum possible number from the minimum group.  The purpose of this
+rule is to make it possible for most organizations in most of the
+countries of the world to participate in SAPC2, if they wish to do so,
+without running afoul of United States Department of Justice biometric
+data export regulations.
 
-4. From the speakers in SAPC test1 and test2, the test utterances
-will include only utterances whose text transcription is not identical to
+4. From the speakers in SAPC test1 and test2, the test utterances will
+include only utterances whose text transcription is not identical to
 any utterance spoken by a speaker in any train or dev distribution.
+The purpose of this rule is to prevent any trained ASR from winning
+the competition by simply memorizing sentences that were spoken by
+somebody in the training set.
